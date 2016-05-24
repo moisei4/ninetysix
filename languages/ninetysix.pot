@@ -1,0 +1,3796 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: NinetySix\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"POT-Revision-Date: Wed Feb 17 2016 19:58:10 GMT+0800 (Ulaanbaatar Standard Time)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: themewaves <themewaves@gmail.com>\n"
+"Language-Team: ThemeWaves <themewaves@gmail.com>\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:8
+msgid "404"
+msgstr ""
+
+#: 404.php:8
+msgid "Not found!"
+msgstr ""
+
+#: 404.php:10
+msgid "We're sorry, the page you have looked for does not exist in our database!"
+msgstr ""
+
+#: 404.php:11
+#, php-format
+msgid "Perhaps you would like to go to our %s home page %s ?"
+msgstr ""
+
+#: archive.php:4
+msgid "Read more"
+msgstr ""
+
+#: comments.php:21
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:29
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:30
+msgid "Comments"
+msgstr ""
+
+#: comments.php:47
+msgid "Post comment"
+msgstr ""
+
+#: comments.php:50
+msgid "Write your message here"
+msgstr ""
+
+#: comments.php:52
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:53
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: content-grid.php:17 vc_templates/tw_portfolio.php:66 vc_templates/tw_product.php:64
+msgid "Show All"
+msgstr ""
+
+#: footer.php:32
+msgid "Scroll to top"
+msgstr ""
+
+#: framework/blog_functions.php:144 framework/blog_functions.php:158
+msgid "Read More"
+msgstr ""
+
+#: framework/theme_functions.php:75
+msgid "Choose Left, Right Menu on Appearance -> Menu"
+msgstr ""
+
+#: framework/theme_functions.php:144
+msgid "Older Posts"
+msgstr ""
+
+#: framework/theme_functions.php:145
+msgid "Newer Posts"
+msgstr ""
+
+#: framework/theme_functions.php:164
+msgid "View more"
+msgstr ""
+
+#: framework/theme_functions.php:319
+msgid "Author"
+msgstr ""
+
+#: framework/theme_functions.php:340
+msgid "The author didnt add any Information to his profile yet"
+msgstr ""
+
+#: framework/theme_functions.php:391
+msgid "Your name here"
+msgstr ""
+
+#: framework/theme_functions.php:393
+msgid "Your email here"
+msgstr ""
+
+#: framework/theme_functions.php:432 single-portfolio.php:56
+msgid "Share"
+msgstr ""
+
+#: framework/theme_functions.php:433
+#: option-tree/includes/ot-functions-option-types.php:2282
+msgid "Facebook"
+msgstr ""
+
+#: framework/theme_functions.php:434
+#: option-tree/includes/ot-functions-option-types.php:2287
+msgid "Twitter"
+msgstr ""
+
+#: framework/theme_functions.php:435
+#: option-tree/includes/ot-functions-option-types.php:2302
+msgid "Pinterest"
+msgstr ""
+
+#: framework/theme_functions.php:504
+msgid " Likes"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:83
+msgid "hot"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:84
+msgid "new"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:197
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:201
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:212
+msgid "sub item"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:243
+msgid "Edit Menu Item"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:252
+msgid "URL"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:259
+msgid "Navigation Label"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:265
+msgid "Title Attribute"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:272
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:277
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:283
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:289
+#: option-tree/includes/ot-functions-admin.php:3273
+#: option-tree/includes/ot-functions-admin.php:3324
+#: option-tree/includes/ot-functions-docs-page.php:43
+#: option-tree/includes/ot-functions-docs-page.php:428
+#: option-tree/includes/ot-functions-docs-page.php:478 single-portfolio.php:46
+msgid "Description"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:291
+msgid ""
+"The description will be displayed in the menu if the current theme supports it."
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:296
+msgid "Move"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:297
+msgid "Up one"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:298
+msgid "Down one"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:301
+msgid "To the top"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:305
+msgid "Custom Options"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:309
+msgid "Hide"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:315
+msgid "Hot"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:321
+msgid "New"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:327
+msgid "Is Mega Menu"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:332
+msgid "Column"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:335
+msgid "2 Columns"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:336
+msgid "3 Columns"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:337
+msgid "4 Columns"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:338
+msgid "5 Columns"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:345
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:358
+msgid "Remove"
+msgstr ""
+
+#: framework/waves_custom_menu/waves_custom_menu.php:360
+msgid "Cancel"
+msgstr ""
+
+#: framework/waves_modals/waves_modal_basket.php:2
+msgid "Basket"
+msgstr ""
+
+#: framework/waves_options/page-options.php:25
+#: framework/waves_widget/waves_widget_instagram.php:53
+#: option-tree/includes/ot-functions-admin.php:4420
+#: option-tree/includes/ot-meta-box-api.php:231
+#: option-tree/includes/ot-settings-api.php:610
+msgid "Title"
+msgstr ""
+
+#: framework/waves_options/page-options.php:29
+#: option-tree/includes/ot-functions-admin.php:2447
+#: option-tree/includes/ot-functions-docs-page.php:269
+msgid "Slider"
+msgstr ""
+
+#: framework/waves_options/page-options.php:33
+msgid "Google Map"
+msgstr ""
+
+#: framework/waves_options/page-options.php:37
+#: framework/waves_options/portfolio-options.php:43
+#: option-tree/includes/ot-functions-admin.php:861
+msgid "Featured Image"
+msgstr ""
+
+#: framework/waves_options/page-options.php:41
+#: framework/waves_options/page-options.php:209
+#: framework/waves_options/portfolio-options.php:55
+#: framework/waves_options/theme-options.php:73
+#: framework/waves_options/theme-options.php:266
+#: option-tree/includes/ot-functions-docs-page.php:440
+#: option-tree/includes/ot-functions-docs-page.php:444
+#: option-tree/includes/ot-functions-docs-page.php:490
+#: option-tree/includes/ot-functions-docs-page.php:494
+msgid "None"
+msgstr ""
+
+#: framework/waves_options/page-options.php:82
+msgid "Page Options"
+msgstr ""
+
+#: framework/waves_options/page-options.php:89
+#: framework/waves_options/portfolio-options.php:103
+#: framework/waves_options/post-options.php:48
+#: framework/waves_options/product-options.php:32
+#: option-tree/includes/ot-functions-admin.php:1068
+msgid "General"
+msgstr ""
+
+#: framework/waves_options/page-options.php:95
+msgid "Page Title Section"
+msgstr ""
+
+#: framework/waves_options/page-options.php:102
+#: framework/waves_options/portfolio-options.php:125
+msgid "Slider ?"
+msgstr ""
+
+#: framework/waves_options/page-options.php:110
+msgid "Embed ?"
+msgstr ""
+
+#: framework/waves_options/page-options.php:116
+msgid "Header and Footer"
+msgstr ""
+
+#: framework/waves_options/page-options.php:121
+msgid "Enable advanced options"
+msgstr ""
+
+#: framework/waves_options/page-options.php:124
+#, php-format
+msgid "Shows the Advanced options when set to %s."
+msgstr ""
+
+#: framework/waves_options/page-options.php:129
+#: framework/waves_options/theme-options.php:200
+msgid "Choose Header Type"
+msgstr ""
+
+#: framework/waves_options/page-options.php:136
+#: framework/waves_options/page-options.php:162
+#: framework/waves_options/page-options.php:184
+#: framework/waves_options/page-options.php:205
+#: framework/waves_options/portfolio-options.php:25
+#: framework/waves_options/post-options.php:25
+#: option-tree/includes/ot-functions-docs-page.php:444
+#: option-tree/includes/ot-functions-docs-page.php:494
+#: option-tree/includes/ot-functions-docs-page.php:498
+#: option-tree/includes/ot-functions-docs-page.php:502
+#: option-tree/includes/ot-functions-docs-page.php:506
+msgid "Default"
+msgstr ""
+
+#: framework/waves_options/page-options.php:140
+#: framework/waves_options/theme-options.php:207
+msgid "Normal"
+msgstr ""
+
+#: framework/waves_options/page-options.php:144
+#: framework/waves_options/theme-options.php:211
+msgid "Logo Center"
+msgstr ""
+
+#: framework/waves_options/page-options.php:148
+#: framework/waves_options/theme-options.php:215
+msgid "Left Side"
+msgstr ""
+
+#: framework/waves_options/page-options.php:154
+#: framework/waves_options/theme-options.php:221
+msgid "Header & Footer Content Layout"
+msgstr ""
+
+#: framework/waves_options/page-options.php:157
+#: framework/waves_options/theme-options.php:43
+#: framework/waves_options/theme-options.php:224
+msgid "Only the Content will changed"
+msgstr ""
+
+#: framework/waves_options/page-options.php:166
+#: framework/waves_options/theme-options.php:52
+#: framework/waves_options/theme-options.php:229
+msgid "Boxed"
+msgstr ""
+
+#: framework/waves_options/page-options.php:170
+#: framework/waves_options/theme-options.php:233
+msgid "Full"
+msgstr ""
+
+#: framework/waves_options/page-options.php:176
+#: framework/waves_options/theme-options.php:240
+msgid "Header & Footer Color Scheme"
+msgstr ""
+
+#: framework/waves_options/page-options.php:179
+#: framework/waves_options/theme-options.php:243
+msgid ""
+"If you chosen the Light then Header & Footer Layout colors will be White and other "
+"text are come from Typography options."
+msgstr ""
+
+#: framework/waves_options/page-options.php:188
+#: framework/waves_options/theme-options.php:248
+msgid "Light"
+msgstr ""
+
+#: framework/waves_options/page-options.php:192
+#: framework/waves_options/theme-options.php:252
+msgid "Dark"
+msgstr ""
+
+#: framework/waves_options/page-options.php:198
+#: framework/waves_options/theme-options.php:258
+msgid "Footer Widget Layout"
+msgstr ""
+
+#: framework/waves_options/page-options.php:213
+#: framework/waves_options/theme-options.php:270
+#: framework/waves_options/theme-options.php:608
+msgid "4 columns"
+msgstr ""
+
+#: framework/waves_options/page-options.php:218
+#: framework/waves_options/theme-options.php:275
+#: framework/waves_options/theme-options.php:604
+msgid "3 columns"
+msgstr ""
+
+#: framework/waves_options/page-options.php:223
+#: framework/waves_options/theme-options.php:280
+#: framework/waves_options/theme-options.php:531
+msgid "2 columns"
+msgstr ""
+
+#: framework/waves_options/page-options.php:228
+#: framework/waves_options/theme-options.php:285
+#: framework/waves_options/theme-options.php:535
+msgid "1 column"
+msgstr ""
+
+#: framework/waves_options/portfolio-options.php:30
+#: framework/waves_options/post-options.php:30
+msgid "With sidebar"
+msgstr ""
+
+#: framework/waves_options/portfolio-options.php:35
+#: framework/waves_options/post-options.php:35
+msgid "Without Sidebar"
+msgstr ""
+
+#: framework/waves_options/portfolio-options.php:47
+msgid "Image slider"
+msgstr ""
+
+#: framework/waves_options/portfolio-options.php:51
+msgid "Revolution Slider"
+msgstr ""
+
+#: framework/waves_options/portfolio-options.php:96
+msgid "Portfolio options"
+msgstr ""
+
+#: framework/waves_options/portfolio-options.php:109
+#: framework/waves_options/post-options.php:54
+msgid "Single post layout"
+msgstr ""
+
+#: framework/waves_options/portfolio-options.php:110
+#: framework/waves_options/post-options.php:55
+msgid ""
+"Change the Single Post Layout Style. You can change all Post Layout Styles on Theme "
+"Options."
+msgstr ""
+
+#: framework/waves_options/portfolio-options.php:118
+msgid "Featured Section"
+msgstr ""
+
+#: framework/waves_options/portfolio-options.php:132
+msgid "Images of Slider"
+msgstr ""
+
+#: framework/waves_options/portfolio-options.php:135
+#: framework/waves_options/portfolio-options.php:148
+#: framework/waves_options/post-options.php:70
+msgid "Note: This option will work only you have chosen POST FORMAT -> GALLERY"
+msgstr ""
+
+#: framework/waves_options/portfolio-options.php:140
+msgid "Select Content Page"
+msgstr ""
+
+#: framework/waves_options/portfolio-options.php:145
+#: framework/waves_options/post-options.php:62
+#: framework/waves_options/post-options.php:67
+#: option-tree/includes/ot-functions-admin.php:2431
+#: option-tree/includes/ot-functions-admin.php:5466
+#: option-tree/includes/ot-functions-docs-page.php:168
+msgid "Gallery"
+msgstr ""
+
+#: framework/waves_options/portfolio-options.php:152 single-portfolio.php:37
+msgid "Client"
+msgstr ""
+
+#: framework/waves_options/portfolio-options.php:157
+msgid "Project url"
+msgstr ""
+
+#: framework/waves_options/post-options.php:41
+msgid "Post options"
+msgstr ""
+
+#: framework/waves_options/post-options.php:73
+#: option-tree/includes/ot-functions-admin.php:5612
+msgid "Video"
+msgstr ""
+
+#: framework/waves_options/post-options.php:78
+msgid "Video embed code"
+msgstr ""
+
+#: framework/waves_options/post-options.php:81
+msgid "Note: This option will work only you have chosen POST FORMAT -> VIDEO"
+msgstr ""
+
+#: framework/waves_options/post-options.php:84
+#: option-tree/includes/ot-functions-admin.php:5651
+msgid "Audio"
+msgstr ""
+
+#: framework/waves_options/post-options.php:89
+msgid "MP3 File URL"
+msgstr ""
+
+#: framework/waves_options/post-options.php:92
+msgid ""
+"Insert Self Hosted .mp3, audio file URL. Note: This option will work only you have "
+"chosen POST FORMAT -> AUDIO"
+msgstr ""
+
+#: framework/waves_options/post-options.php:95
+msgid "Embeded Code"
+msgstr ""
+
+#: framework/waves_options/post-options.php:98
+msgid ""
+"Insert Youtube or Vimeo etc Embed Code only. Note: This option will work only you "
+"have chosen POST FORMAT -> AUDIO"
+msgstr ""
+
+#: framework/waves_options/post-options.php:101
+#: option-tree/includes/ot-functions-admin.php:5552
+msgid "Quote"
+msgstr ""
+
+#: framework/waves_options/post-options.php:106
+msgid "Quote Text"
+msgstr ""
+
+#: framework/waves_options/post-options.php:109
+msgid "Note: This option will work only you have chosen POST FORMAT -> QUOTE"
+msgstr ""
+
+#: framework/waves_options/product-options.php:25
+msgid "Product options"
+msgstr ""
+
+#: framework/waves_options/product-options.php:38
+msgid "Product video"
+msgstr ""
+
+#: framework/waves_options/product-options.php:39
+msgid "Video url"
+msgstr ""
+
+#: framework/waves_options/product-options.php:45
+msgid "Product image zoom"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:36
+msgid "General Options"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:40
+msgid "Main Theme Layout"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:48
+msgid "Fullwidth"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:58
+msgid "Smooth Scroll"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:65
+msgid "Preloader"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:77
+msgid "FADE"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:82
+msgid "FADE DOWN SMALL"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:87
+msgid "FADE DOWN"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:92
+msgid "FADE DOWN LARGE"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:97
+msgid "FADE UP SMALL"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:102
+msgid "FADE UP"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:107
+msgid "FADE UP LARGE"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:112
+msgid "FADE LEFT SMALL"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:117
+msgid "FADE LEFT"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:122
+msgid "FADE LEFT LARGE"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:127
+msgid "FADE RIGHT SMALL"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:132
+msgid "FADE RIGHT"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:137
+msgid "FADE RIGHT LARGE"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:144
+msgid "Custom CSS"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:145
+msgid ""
+"Custom CSS section will give you able to insert your own CSS rules to apply on "
+"NinetySix theme."
+msgstr ""
+
+#: framework/waves_options/theme-options.php:155
+msgid "Logo & Favicon"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:159
+msgid "Logo Image"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:166
+msgid "Light Logo Image"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:173
+msgid "Retina Logo Image"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:174
+#: framework/waves_options/theme-options.php:181
+msgid "2x logo size, for screens with high DPI."
+msgstr ""
+
+#: framework/waves_options/theme-options.php:180
+msgid "Retina Light Logo Image"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:187
+msgid "Fav Icon"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:196
+msgid "Header & Footer"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:292
+msgid "Search on Header"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:300
+msgid "Wishlist on Header"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:308
+msgid "Cart on Header"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:318
+msgid "Typography Options"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:322
+msgid "Theme Fonts"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:335
+msgid "Body Typography"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:346
+msgid "Heading Typography"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:356
+msgid "H1 font size"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:365
+msgid "H2 font size"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:374
+msgid "H3 font size"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:383
+msgid "H4 font size"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:392
+msgid "H5 font size"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:401
+msgid "H6 font size"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:413
+msgid "Blog Options"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:417
+msgid "Blog layout?"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:424
+msgid "Simple with sidebar"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:428
+msgid "Simple without sidebar"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:432
+msgid "Grid with sidebar"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:436
+msgid "Grid without sidebar"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:442
+msgid "Excerpt word lenght"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:445
+msgid "Only integer value."
+msgstr ""
+
+#: framework/waves_options/theme-options.php:451
+msgid "Read More text"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:458
+msgid "Pagination?"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:465
+#: framework/waves_widget/waves_widget_instagram.php:72
+msgid "Simple"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:469
+msgid "Infinite"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:477
+msgid "Post Options"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:481
+msgid "Post layout?"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:488
+msgid "With Sidebar"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:492
+msgid "Full width"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:498
+msgid "Featured media show on single?"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:505
+msgid "Post social share on single?"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:513
+msgid "Portfolio Options"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:517
+msgid "Portfolio Slug"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:524
+msgid "Single portfolio layout?"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:541
+msgid "Select Portfolio Page"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:548
+msgid "Description text"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:555
+msgid "Button text"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:562
+msgid "Client text"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:569
+msgid "Categories text"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:576
+msgid "Date text"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:583
+msgid "Share text"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:593
+msgid "Woocommerce"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:597
+msgid "Shop page layout?"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:614
+msgid "Shop single layout?"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:621
+msgid "Layout 1"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:625
+msgid "Layout 2"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:631
+msgid "Products per page"
+msgstr ""
+
+#: framework/waves_options/theme-options.php:638
+msgid "Sorting options ?"
+msgstr ""
+
+#: framework/waves_options/waves_options.php:14
+msgid "Options Import/Export"
+msgstr ""
+
+#: framework/waves_options/waves_options.php:15
+msgid "Options Utils"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:399
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:3033
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:400
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. Please "
+"update the plugin."
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:525
+msgid "Update Required"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:639
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:832
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:3442
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:939
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug and "
+"renaming did not work."
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:939
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:942
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin according "
+"to the WordPress guidelines."
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:942
+msgid ""
+"The remote plugin package consists of more than one file, but the files are not "
+"packaged in a folder."
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2171
+msgid "Required"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2174
+msgid "Recommended"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2190
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2193
+msgid "External Source"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2196
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2213
+msgid "Not Installed"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2217
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2219
+msgid "Active"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2225
+msgid "Required Update not Available"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2228
+msgid "Requires Update"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2231
+msgid "Update recommended"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2383
+msgid "Installed version:"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2391
+msgid "Minimum required version:"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2403
+msgid "Available version:"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2426
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2440
+msgid "Plugin"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2441
+msgid "Source"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2442
+#: option-tree/includes/ot-functions-docs-page.php:35
+msgid "Type"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2446
+msgid "Version"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2447
+msgid "Status"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2574
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2607
+msgid "Install"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2613
+msgid "Update"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2616
+#: option-tree/includes/ot-functions-admin.php:4383
+#: option-tree/includes/ot-functions-admin.php:4384
+msgid "Activate"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2647
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2649
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2685
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2687
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2792
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:2818
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:3032
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:3366
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:3368
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:3369
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:3373
+msgid ""
+"The installation and activation process is starting. This process may take a while "
+"on some hosts, so please be patient."
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:3374
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:3374
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:3380
+msgid "Show Details"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:3374
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:3380
+msgid "Hide Details"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:3375
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:3376
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:3379
+msgid ""
+"The installation process is starting. This process may take a while on some hosts, "
+"so please be patient."
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:3380
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:3381
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/waves_welcome/tgm_plugins/class-tgm-plugin-activation.php:3382
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/waves_welcome/welcome.php:2
+msgid "Welcome to NinetySix Theme"
+msgstr ""
+
+#: framework/waves_welcome/welcome.php:3
+msgid ""
+"Congratulations! You are using the One of the Best Clean and Creative Themes by "
+"ThemeWaves."
+msgstr ""
+
+#: framework/waves_welcome/welcome.php:8
+msgid "Once you have activated our theme Follow this Steps"
+msgstr ""
+
+#: framework/waves_welcome/welcome.php:10
+msgid "Step 1: Please Install our Recommended Plugins first"
+msgstr ""
+
+#: framework/waves_welcome/welcome.php:11
+msgid "Step 2: Your Downloaded ZIP contains XML Dummy Datas and Slider Dummy Datas."
+msgstr ""
+
+#: framework/waves_welcome/welcome.php:12
+msgid ""
+"Step 3: Import your wished XML files via Tools -> Import section. (Note: If you are "
+"importing SHOP dummy Data then Install Woocommerce first!)"
+msgstr ""
+
+#: framework/waves_welcome/welcome.php:13
+msgid ""
+"Step 4: Insert Revolution Slider Dummy Datas on Admin -> Revolution Slider section."
+msgstr ""
+
+#: framework/waves_welcome/welcome.php:14
+msgid "Step 5: Go to the Appearance -> Menu section and Set the Main Menu."
+msgstr ""
+
+#: framework/waves_welcome/welcome.php:15
+msgid ""
+"Step 5: Go to the Settings -> Reading section and Set the Frontpage to Static. "
+"Don't Set the Blog Page!!!"
+msgstr ""
+
+#: framework/waves_welcome/welcome.php:16
+msgid "Step 6: Go to your website and check it."
+msgstr ""
+
+#: framework/waves_welcome/welcome.php:23
+msgid "How to get Support?"
+msgstr ""
+
+#: framework/waves_welcome/welcome.php:24
+msgid ""
+"If you have any questions and then please contact us via our <a href=\"http://"
+"support.themewaves.com\" title=\"Support Forum\" target=\"_blank\">Support Forum</"
+"a> and also <a href=\"http://facebook.com/themewaves\" title=\"Support Forum\" "
+"target=\"_blank\">Facebook Page</a> through. We will answer your question as fast "
+"as we can."
+msgstr ""
+
+#: framework/waves_welcome/welcome.php:28
+msgid "Where is Knowledge base?"
+msgstr ""
+
+#: framework/waves_welcome/welcome.php:29
+msgid ""
+"We have prepared Guide Videos through our Knowledge base center and you can <a href="
+"\"http://support.themewaves.com/knowledgebase/\" title=\"Knowledge Base Center\" "
+"target=\"_blank\">check it here.</a>"
+msgstr ""
+
+#: framework/waves_welcome/welcome.php:33
+msgid "How to rate Theme?"
+msgstr ""
+
+#: framework/waves_welcome/welcome.php:34
+msgid ""
+"If our themes are great then you can rate it on Themeforest, Go to the Account -> "
+"Download section there you have purchased themes and rate our theme to 5 stars! We "
+"really appreciate for this."
+msgstr ""
+
+#: framework/waves_welcome/welcome.php:37
+msgid "Thank you for choosing Themewaves Team. Have a nice day!"
+msgstr ""
+
+#: framework/waves_widget/waves_widget_instagram.php:6
+msgid "Waves: Instagram"
+msgstr ""
+
+#: framework/waves_widget/waves_widget_instagram.php:6
+msgid "Displays your latest Instagram photos"
+msgstr ""
+
+#: framework/waves_widget/waves_widget_instagram.php:46
+msgid "Instagram"
+msgstr ""
+
+#: framework/waves_widget/waves_widget_instagram.php:54
+msgid "Username"
+msgstr ""
+
+#: framework/waves_widget/waves_widget_instagram.php:55
+msgid "Number of photos"
+msgstr ""
+
+#: framework/waves_widget/waves_widget_instagram.php:56
+msgid "Photo size"
+msgstr ""
+
+#: framework/waves_widget/waves_widget_instagram.php:58
+msgid "Thumbnail"
+msgstr ""
+
+#: framework/waves_widget/waves_widget_instagram.php:59
+msgid "Small"
+msgstr ""
+
+#: framework/waves_widget/waves_widget_instagram.php:60
+msgid "Large"
+msgstr ""
+
+#: framework/waves_widget/waves_widget_instagram.php:61
+msgid "Original"
+msgstr ""
+
+#: framework/waves_widget/waves_widget_instagram.php:64
+msgid "Open links in"
+msgstr ""
+
+#: framework/waves_widget/waves_widget_instagram.php:66
+msgid "New window (_blank)"
+msgstr ""
+
+#: framework/waves_widget/waves_widget_instagram.php:67
+msgid "Current window (_self)"
+msgstr ""
+
+#: framework/waves_widget/waves_widget_instagram.php:70
+#: option-tree/includes/ot-functions-admin.php:4381
+msgid "Layout"
+msgstr ""
+
+#: framework/waves_widget/waves_widget_instagram.php:73
+msgid "Carousel"
+msgstr ""
+
+#: framework/waves_widget/waves_widget_instagram.php:77
+msgid "Carousel Auto Play:"
+msgstr ""
+
+#: framework/waves_widget/waves_widget_instagram.php:107
+msgid "Unable to communicate with Instagram."
+msgstr ""
+
+#: framework/waves_widget/waves_widget_instagram.php:110
+msgid "Instagram did not return a 200."
+msgstr ""
+
+#: framework/waves_widget/waves_widget_instagram.php:117
+#: framework/waves_widget/waves_widget_instagram.php:122
+#: framework/waves_widget/waves_widget_instagram.php:126
+msgid "Instagram has returned invalid data."
+msgstr ""
+
+#: framework/waves_widget/waves_widget_instagram.php:143
+msgid "Instagram Image"
+msgstr ""
+
+#: framework/waves_widget/waves_widget_instagram.php:173
+msgid "Instagram did not return any images."
+msgstr ""
+
+#: framework/waves_widget/waves_widget_portfolio.php:86
+msgid "Title:"
+msgstr ""
+
+#: framework/waves_widget/waves_widget_social_link.php:64
+msgid ""
+"Enter social links. Example:facebook.com/themewaves. NOTE: Divide value sets with "
+"linebreak \"Enter\""
+msgstr ""
+
+#: functions.php:59
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:138
+msgid "Footer sidebar "
+msgstr ""
+
+#: functions.php:140
+msgid "The footer sidebar widget area"
+msgstr ""
+
+#: functions.php:194
+msgid "Keyword ..."
+msgstr ""
+
+#: option-tree/includes/ot-cleanup-api.php:84
+#: option-tree/includes/ot-cleanup-api.php:101
+#: option-tree/includes/ot-cleanup-api.php:130
+msgid "OptionTree Cleanup"
+msgstr ""
+
+#: option-tree/includes/ot-cleanup-api.php:101
+#, php-format
+msgid ""
+"OptionTree has outdated data that should be removed. Please go to %s for more "
+"information."
+msgstr ""
+
+#: option-tree/includes/ot-cleanup-api.php:136
+msgid "Multiple Media Posts"
+msgstr ""
+
+#: option-tree/includes/ot-cleanup-api.php:138
+#, php-format
+msgid ""
+"There are currently %s OptionTree media posts in your database. At some point in "
+"the past, a version of OptionTree added multiple %s media post objects cluttering "
+"up your %s table. There is no associated risk or harm that these posts have caused "
+"other than to add size to your overall database. Thankfully, there is a way to "
+"remove all these orphaned media posts and get your database cleaned up."
+msgstr ""
+
+#: option-tree/includes/ot-cleanup-api.php:140
+#, php-format
+msgid ""
+"By clicking the button below, OptionTree will delete %s records and consolidate "
+"them into one single OptionTree media post for uploading attachments to. "
+"Additionally, the attachments will have their parent ID updated to the correct "
+"media post."
+msgstr ""
+
+#: option-tree/includes/ot-cleanup-api.php:142
+msgid ""
+"This could take a while to fully process depending on how many records you have in "
+"your database, so please be patient and wait for the script to finish."
+msgstr ""
+
+#: option-tree/includes/ot-cleanup-api.php:144
+#, php-format
+msgid ""
+"%s Your server is running in safe mode. Which means this page will automatically "
+"reload after deleting %s posts, you can filter this number using %s if your server "
+"is having trouble processing that many at one time."
+msgstr ""
+
+#: option-tree/includes/ot-cleanup-api.php:146
+msgid "Consolidate Posts"
+msgstr ""
+
+#: option-tree/includes/ot-cleanup-api.php:174
+msgid "Reloading..."
+msgstr ""
+
+#: option-tree/includes/ot-cleanup-api.php:210
+msgid "Clean up script has completed, the page will now reload..."
+msgstr ""
+
+#: option-tree/includes/ot-cleanup-api.php:230
+msgid "Outdated Table"
+msgstr ""
+
+#: option-tree/includes/ot-cleanup-api.php:232
+#, php-format
+msgid ""
+"If you have upgraded from an old 1.x version of OptionTree at some point, you have "
+"an extra %s table in your database that can be removed. It's not hurting anything, "
+"but does not need to be there. If you want to remove it. Click the button below."
+msgstr ""
+
+#: option-tree/includes/ot-cleanup-api.php:234
+msgid "Drop Table"
+msgstr ""
+
+#: option-tree/includes/ot-cleanup-api.php:238
+#, php-format
+msgid "Deleting the outdated and unused %s table..."
+msgstr ""
+
+#: option-tree/includes/ot-cleanup-api.php:244
+#, php-format
+msgid "The %s table has been successfully deleted. The page will now reload..."
+msgstr ""
+
+#: option-tree/includes/ot-cleanup-api.php:256
+#, php-format
+msgid "Something went wrong. The %s table was not deleted."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:50
+#: option-tree/includes/ot-functions-admin.php:51
+#: option-tree/includes/ot-functions-admin.php:169
+#: option-tree/includes/ot-functions-admin.php:193
+#: option-tree/includes/ot-functions.php:388
+msgid "Theme Options"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:56
+#: option-tree/includes/ot-functions-admin.php:126
+#: option-tree/includes/ot-functions-admin.php:220
+msgid "Theme Options updated."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:57
+#: option-tree/includes/ot-functions-admin.php:127
+#: option-tree/includes/ot-functions-admin.php:221
+msgid "Theme Options reset."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:58
+#: option-tree/includes/ot-functions-settings-page.php:94
+#: option-tree/includes/ot-functions-settings-page.php:133
+msgid "Save Changes"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:97
+msgid ""
+"The Theme Options UI Builder is being overridden by a custom file in your theme. "
+"Any changes you make via the UI Builder will not be saved."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:109
+#: option-tree/includes/ot-functions-admin.php:110
+#: option-tree/includes/ot-functions-docs-page.php:821
+msgid "OptionTree"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:120
+#: option-tree/includes/ot-functions-admin.php:121
+#: option-tree/includes/ot-functions-admin.php:163
+#: option-tree/includes/ot-functions-admin.php:187
+#: option-tree/includes/ot-functions-docs-page.php:49
+msgid "Settings"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:128
+#: option-tree/includes/ot-functions-admin.php:222
+msgid "Save Settings"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:133
+msgid "Theme Options UI"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:137
+msgid "Import"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:141
+msgid "Export"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:145
+#: option-tree/includes/ot-functions-admin.php:175
+#: option-tree/includes/ot-functions-admin.php:199
+msgid "Layouts"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:151
+msgid "Theme Options UI Builder"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:157
+msgid "Settings XML"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:181
+msgid "Settings PHP File"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:205
+msgid "Layout Management"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:214
+#: option-tree/includes/ot-functions-admin.php:215
+msgid "Documentation"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:227
+msgid "Creating Options"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:231
+msgid "Option Types"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:235
+msgid "Function References"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:239
+#: option-tree/includes/ot-functions-admin.php:281
+#: option-tree/includes/ot-functions-settings-page.php:366
+msgid "Theme Mode"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:243
+#: option-tree/includes/ot-functions-admin.php:287
+msgid "Meta Boxes"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:247
+msgid "Code Examples"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:251
+msgid "Layouts Overview"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:257
+msgid "Overview of available Theme Option fields."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:263
+msgid "Option types in alphabetical order & hooks to filter them."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:269
+msgid "Function Reference:ot_get_option()"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:275
+msgid "Function Reference:get_option_tree()"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:293
+msgid "Code examples for front-end development."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:299
+msgid "What's a layout anyhow?"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:502
+#: option-tree/includes/ot-functions-admin.php:604
+#: option-tree/includes/ot-functions-admin.php:673
+#, php-format
+msgid "The %s input field for %s only allows numeric values."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:563
+#, php-format
+msgid "The %s Colorpicker only allows valid hexadecimal or rgba values."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:847
+#: option-tree/includes/ot-functions-docs-page.php:398
+#: option-tree/includes/ot-functions-settings-page.php:170
+#: option-tree/ot-loader.php:762
+msgid "Send to OptionTree"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:848
+#: option-tree/includes/ot-functions-option-types.php:257
+#: option-tree/includes/ot-functions-option-types.php:3218
+msgid "Remove Media"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:849
+msgid "Are you sure you want to reset back to the defaults?"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:850
+msgid "You can't remove this! But you can edit the values."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:851
+msgid "Are you sure you want to remove this?"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:852
+msgid "Are you sure you want to activate this layout?"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:853
+msgid "Sorry, you can't have settings three levels deep."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:854
+#: option-tree/includes/ot-functions-option-types.php:1159
+msgid "Delete Gallery"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:855
+#: option-tree/includes/ot-functions-option-types.php:1160
+msgid "Edit Gallery"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:856
+#: option-tree/includes/ot-functions-option-types.php:1167
+msgid "Create Gallery"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:857
+msgid "Are you sure you want to delete this Gallery?"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:858
+msgid "Today"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:859
+msgid "Now"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:860
+msgid "Close"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:862
+#: option-tree/includes/ot-functions-admin.php:3251
+#: option-tree/includes/ot-functions-admin.php:3312
+msgid "Image"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:930
+msgid "Option Tree"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:1074
+msgid "Sample Text Field Label"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:1075
+msgid "Description for the sample text field."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2317
+msgid "Settings updated."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2321
+msgid "Settings could not be saved."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2329
+msgid "Settings Imported."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2333
+msgid "Settings could not be imported."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2340
+msgid "Data Imported."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2344
+msgid "Data could not be imported."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2352
+msgid "Layouts Imported."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2356
+msgid "Layouts could not be imported."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2364
+msgid "Layouts Updated."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2368
+msgid "Layouts could not be updated."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2372
+msgid "Layouts have been deleted."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2378
+msgid "Layout activated."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2417
+#: option-tree/includes/ot-functions-docs-page.php:110
+msgid "Background"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2418
+#: option-tree/includes/ot-functions-docs-page.php:113
+msgid "Border"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2419
+#: option-tree/includes/ot-functions-docs-page.php:116
+msgid "Box Shadow"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2420
+#: option-tree/includes/ot-functions-docs-page.php:119
+msgid "Category Checkbox"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2421
+#: option-tree/includes/ot-functions-docs-page.php:122
+msgid "Category Select"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2422
+#: option-tree/includes/ot-functions-docs-page.php:125
+msgid "Checkbox"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2423
+#: option-tree/includes/ot-functions-docs-page.php:128
+msgid "Colorpicker"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2424
+#: option-tree/includes/ot-functions-docs-page.php:131
+msgid "Colorpicker Opacity"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2425
+#: option-tree/includes/ot-functions-docs-page.php:134
+msgid "CSS"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2426
+#: option-tree/includes/ot-functions-docs-page.php:153
+msgid "Custom Post Type Checkbox"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2427
+#: option-tree/includes/ot-functions-docs-page.php:156
+msgid "Custom Post Type Select"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2428
+#: option-tree/includes/ot-functions-docs-page.php:159
+msgid "Date Picker"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2429
+#: option-tree/includes/ot-functions-docs-page.php:162
+msgid "Date Time Picker"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2430
+#: option-tree/includes/ot-functions-docs-page.php:165
+msgid "Dimension"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2432
+#: option-tree/includes/ot-functions-docs-page.php:171
+msgid "Google Fonts"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2433
+#: option-tree/includes/ot-functions-docs-page.php:174
+msgid "JavaScript"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2434
+#: option-tree/includes/ot-functions-docs-page.php:177
+msgid "Link Color"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2435
+#: option-tree/includes/ot-functions-docs-page.php:180
+msgid "List Item"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2436
+#: option-tree/includes/ot-functions-docs-page.php:183
+msgid "Measurement"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2437
+#: option-tree/includes/ot-functions-docs-page.php:214
+msgid "Numeric Slider"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2438
+#: option-tree/includes/ot-functions-docs-page.php:217
+msgid "On/Off"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2439
+#: option-tree/includes/ot-functions-docs-page.php:220
+msgid "Page Checkbox"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2440
+#: option-tree/includes/ot-functions-docs-page.php:223
+msgid "Page Select"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2441
+#: option-tree/includes/ot-functions-docs-page.php:226
+msgid "Post Checkbox"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2442
+#: option-tree/includes/ot-functions-docs-page.php:229
+msgid "Post Select"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2443
+#: option-tree/includes/ot-functions-docs-page.php:232
+msgid "Radio"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2444
+#: option-tree/includes/ot-functions-docs-page.php:235
+msgid "Radio Image"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2445
+#: option-tree/includes/ot-functions-docs-page.php:262
+msgid "Select"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2446
+#: option-tree/includes/ot-functions-docs-page.php:265
+msgid "Sidebar Select"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2448
+#: option-tree/includes/ot-functions-docs-page.php:272
+msgid "Social Links"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2449
+#: option-tree/includes/ot-functions-docs-page.php:275
+msgid "Spacing"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2450
+#: option-tree/includes/ot-functions-docs-page.php:278
+msgid "Tab"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2451
+#: option-tree/includes/ot-functions-docs-page.php:281
+msgid "Tag Checkbox"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2452
+#: option-tree/includes/ot-functions-docs-page.php:284
+msgid "Tag Select"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2453
+#: option-tree/includes/ot-functions-docs-page.php:287
+msgid "Taxonomy Checkbox"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2454
+#: option-tree/includes/ot-functions-docs-page.php:290
+msgid "Taxonomy Select"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2455
+#: option-tree/includes/ot-functions-docs-page.php:293
+msgid "Text"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2456
+#: option-tree/includes/ot-functions-docs-page.php:296
+msgid "Textarea"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2457
+#: option-tree/includes/ot-functions-docs-page.php:355
+msgid "Textarea Simple"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2458
+#: option-tree/includes/ot-functions-docs-page.php:371
+msgid "Textblock"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2459
+#: option-tree/includes/ot-functions-docs-page.php:374
+msgid "Textblock Titled"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2460
+#: option-tree/includes/ot-functions-docs-page.php:377
+msgid "Typography"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:2461
+#: option-tree/includes/ot-functions-docs-page.php:397
+msgid "Upload"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:3196
+msgid "Left Sidebar"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:3201
+msgid "Right Sidebar"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:3206
+msgid "Full Width (no sidebar)"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:3211
+msgid "Dual Sidebar"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:3216
+msgid "Left Dual Sidebar"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:3221
+msgid "Right Dual Sidebar"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:3262
+#: option-tree/includes/ot-functions-admin.php:3318
+#: option-tree/includes/ot-functions-admin.php:5506
+msgid "Link"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:3388 woocommerce/tw_woocommerce.php:292
+msgid "Name"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:3389
+msgid "Enter the name of the social website."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:3397
+msgid "Enter the text shown in the title attribute of the link."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:3403
+#, php-format
+msgid ""
+"Enter a link to the profile or page on the social website. Remember to add the %s "
+"part to the front of the link."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:3756
+#, php-format
+msgid "Unable to write to file %s."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:4026
+msgid "edit"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:4027
+#: option-tree/includes/ot-functions-admin.php:4095
+#: option-tree/includes/ot-functions-admin.php:4096
+#: option-tree/includes/ot-functions-admin.php:4258
+#: option-tree/includes/ot-functions-admin.php:4259
+#: option-tree/includes/ot-functions-admin.php:4324
+#: option-tree/includes/ot-functions-admin.php:4325
+#: option-tree/includes/ot-functions-admin.php:4452
+#: option-tree/includes/ot-functions-admin.php:4453
+#: option-tree/includes/ot-functions-admin.php:4605
+#: option-tree/includes/ot-functions-admin.php:4606
+msgid "Edit"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:4029
+#: option-tree/includes/ot-functions-admin.php:4030
+#: option-tree/includes/ot-functions-admin.php:4098
+#: option-tree/includes/ot-functions-admin.php:4099
+#: option-tree/includes/ot-functions-admin.php:4261
+#: option-tree/includes/ot-functions-admin.php:4262
+#: option-tree/includes/ot-functions-admin.php:4327
+#: option-tree/includes/ot-functions-admin.php:4328
+#: option-tree/includes/ot-functions-admin.php:4386
+#: option-tree/includes/ot-functions-admin.php:4387
+#: option-tree/includes/ot-functions-admin.php:4455
+#: option-tree/includes/ot-functions-admin.php:4456
+#: option-tree/includes/ot-functions-admin.php:4608
+#: option-tree/includes/ot-functions-admin.php:4609
+msgid "Delete"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:4036
+msgid ""
+"<strong>Section Title</strong>: Displayed as a menu item on the Theme Options page."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:4044
+msgid ""
+"<strong>Section ID</strong>: A unique lower case alphanumeric string, underscores "
+"allowed."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:4105
+msgid ""
+"<strong>Label</strong>: Displayed as the label of a form element on the Theme "
+"Options page."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:4113
+#: option-tree/includes/ot-functions-admin.php:4342
+msgid ""
+"<strong>ID</strong>: A unique lower case alphanumeric string, underscores allowed."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:4121
+msgid ""
+"<strong>Type</strong>: Choose one of the available option types from the dropdown."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:4132
+msgid ""
+"<strong>Description</strong>: Enter a detailed description for the users to read on "
+"the Theme Options page, HTML is allowed. This is also where you enter content for "
+"both the Textblock & Textblock Titled option types."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:4140
+msgid ""
+"<strong>Choices</strong>: This will only affect the following option types: "
+"Checkbox, Radio, Select & Select Image."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:4145
+msgid "Add Choice"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:4151
+msgid "<strong>Settings</strong>: This will only affect the List Item option type."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:4156
+#: option-tree/includes/ot-functions-settings-page.php:93
+msgid "Add Setting"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:4162
+msgid ""
+"<strong>Standard</strong>: Setting the standard value for your option only works "
+"for some option types. Read the <code>OptionTree->Documentation</code> for more "
+"information on which ones."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:4170
+msgid ""
+"<strong>Rows</strong>: Enter a numeric value for the number of rows in your "
+"textarea. This will only affect the following option types: CSS, Textarea, & "
+"Textarea Simple."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:4178
+msgid ""
+"<strong>Post Type</strong>: Add a comma separated list of post type like 'post,"
+"page'. This will only affect the following option types: Custom Post Type Checkbox, "
+"& Custom Post Type Select."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:4186
+msgid ""
+"<strong>Taxonomy</strong>: Add a comma separated list of any registered taxonomy "
+"like 'category,post_tag'. This will only affect the following option types: "
+"Taxonomy Checkbox, & Taxonomy Select."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:4194
+msgid ""
+"<strong>Min, Max, & Step</strong>: Add a comma separated list of options in the "
+"following format <code>0,100,1</code> (slide from <code>0-100</code> in intervals "
+"of <code>1</code>). The three values represent the minimum, maximum, and step "
+"options and will only affect the Numeric Slider option type."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:4202
+msgid "<strong>CSS Class</strong>: Add and optional class to this option type."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:4210
+#, php-format
+msgid ""
+"<strong>Condition</strong>: Add a comma separated list (no spaces) of conditions in "
+"which the field will be visible, leave this setting empty to always show the field. "
+"In these examples, <code>value</code> is a placeholder for your condition, which "
+"can be in the form of %s."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:4218
+msgid ""
+"<strong>Operator</strong>: Choose the logical operator to compute the result of the "
+"conditions."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:4221
+#: option-tree/includes/ot-functions-docs-page.php:111
+#: option-tree/includes/ot-functions-docs-page.php:378
+msgid "and"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:4222
+msgid "or"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:4268
+#: option-tree/includes/ot-functions-docs-page.php:29
+msgid "Label"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:4278
+msgid "Value"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:4288
+msgid "Image Source (Radio Image only)"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:4334
+msgid ""
+"<strong>Title</strong>: Displayed as a contextual help menu item on the Theme "
+"Options page."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:4350
+msgid ""
+"<strong>Content</strong>: Enter the HTML content about this contextual help item "
+"displayed on the Theme Option page for end users to read."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:4760
+msgid "New Layout"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:5515
+msgid "Link URL"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:5522
+msgid "Link Title"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:5561
+msgid "Source Name (ex. author, singer, actor)"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:5568
+msgid "Source URL"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:5575
+msgid "Source Title (ex. book, song, movie)"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:5582
+msgid "Source Date"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:5621
+#, php-format
+msgid ""
+"Embed video from services like Youtube, Vimeo, or Hulu. You can find a list of "
+"supported oEmbed sites in the %1$s. Alternatively, you could use the built-in %2$s "
+"shortcode."
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:5621
+#: option-tree/includes/ot-functions-admin.php:5660
+msgid "Wordpress Codex"
+msgstr ""
+
+#: option-tree/includes/ot-functions-admin.php:5660
+#, php-format
+msgid ""
+"Embed audio from services like SoundCloud and Rdio. You can find a list of "
+"supported oEmbed sites in the %1$s. Alternatively, you could use the built-in %2$s "
+"shortcode."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:30
+msgid ""
+"The Label field should be a short but descriptive block of text 100 characters or "
+"less with no HTML."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:32
+msgid "ID"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:33
+msgid ""
+"The ID field is a unique alphanumeric key used to differentiate each theme option "
+"(underscores are acceptable). Also, the plugin will change all text you write in "
+"this field to lowercase and replace spaces and special characters with an "
+"underscore automatically."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:36
+msgid ""
+"You are required to choose one of the supported option types when creating a new "
+"option. Here is a list of the available option types. For more information about "
+"each type click the <code>Option Types</code> tab to the left."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:44
+msgid ""
+"Enter a detailed description for the users to read on the Theme Options page, HTML "
+"is allowed. This is also where you enter content for both the Textblock & Textblock "
+"Titled option types."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:46
+msgid "Choices"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:47
+msgid ""
+"Click the \"Add Choice\" button to add an item to the choices array. This will only "
+"affect the following option types: Checkbox, Radio, Select & Select Image."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:50
+msgid ""
+"Click the \"Add Setting\" button found inside a newly created setting to add an "
+"item to the settings array. This will only affect the List Item type."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:52
+msgid "Standard"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:53
+msgid ""
+"Setting the standard value for your option only works for some option types. Those "
+"types are one that have a single string value saved to them and not an array of "
+"values."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:55
+msgid "Rows"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:56
+msgid ""
+"Enter a numeric value for the number of rows in your textarea. This will only "
+"affect the following option types: CSS, Textarea, & Textarea Simple."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:58
+msgid "Post Type"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:59
+msgid ""
+"Add a comma separated list of post type like <code>post,page</code>. This will only "
+"affect the following option types: Custom Post Type Checkbox, & Custom Post Type "
+"Select. Below are the default post types available with WordPress and that are also "
+"compatible with OptionTree. You can also add your own custom <code>post_type</"
+"code>. At this time <code>any</code> does not seem to return results properly and "
+"is something I plan on looking into."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:67
+msgid "Taxonomy"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:68
+msgid ""
+"Add a comma separated list of any registered taxonomy like <code>category,post_tag</"
+"code>. This will only affect the following option types: Taxonomy Checkbox, & "
+"Taxonomy Select."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:70
+msgid "Min, Max, & Step"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:71
+msgid ""
+"Add a comma separated list of options in the following format <code>0,100,1</code> "
+"(slide from <code>0-100</code> in intervals of <code>1</code>). The three values "
+"represent the minimum, maximum, and step options and will only affect the Numeric "
+"Slider option type."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:73
+msgid "CSS Class"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:74
+msgid "Add and optional class to any option type."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:76
+msgid "Condition"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:77
+#, php-format
+msgid ""
+"Add a comma separated list (no spaces) of conditions in which the field will be "
+"visible, leave this setting empty to always show the field. In these examples, %s "
+"is a placeholder for your condition, which can be in the form of %s."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:79
+msgid "Operator"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:80
+#, php-format
+msgid ""
+"Choose the logical operator to compute the result of the conditions. Your options "
+"are %s and %s."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:111
+#, php-format
+msgid ""
+"The Background option type is for adding background styles to your theme either "
+"dynamically via the CSS option type below or manually with %s. The Background "
+"option type has filters that allow you to remove fields or change the defaults. For "
+"example, you can filter %s to remove unwanted fields from all Background options or "
+"an individual one. You can also filter %s. These filters allow you to fine tune the "
+"select lists for your specific needs."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:114
+#, php-format
+msgid ""
+"The Border option type is used to set width, unit, style, and color values. The "
+"text input excepts a numerical value and the unit select lets you choose the unit "
+"of measurement to add to that value. Currently the default units are %s, %s, %s, "
+"and %s. However, you can change them with the %s filter. The style select lets you "
+"choose the border style. The default styles are %s, %s, %s, %s, %s, %s, %s, and %s. "
+"However, you can change them with the %s filter. The colorpicker saves a "
+"hexadecimal color code."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:117
+#, php-format
+msgid "The Box Shadow option type is used to set %s, %s, %s, %s, %s, and %s values."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:120
+msgid ""
+"The Category Checkbox option type displays a list of category IDs. It allows the "
+"user to check multiple category IDs and will return that value as an array for use "
+"in a custom function or loop."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:123
+msgid ""
+"The Category Select option type displays a list of category IDs. It allows the user "
+"to select only one category ID and will return that value for use in a custom "
+"function or loop."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:126
+msgid ""
+"The Checkbox option type displays a group of choices. It allows the user to check "
+"multiple choices and will return that value as an array for use in a custom "
+"function or loop."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:129
+msgid ""
+"The Colorpicker option type saves a hexadecimal color code for use in CSS. Use it "
+"to modify the color of something in your theme."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:132
+#, php-format
+msgid ""
+"The Colorpicker Opacity option type saves a hexadecimal color code with an opacity "
+"value from %s to %s in increments of %s. Though the value is saved as hexadecimal, "
+"if used within the CSS option type the color and opacity values will be converted "
+"into a valid RGBA CSS value."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:135
+#, php-format
+msgid ""
+"The CSS option type is a textarea that when used properly can add dynamic CSS to "
+"your theme from within OptionTree. Unfortunately, due server limitations you will "
+"need to create a file named %s at the root level of your theme and change "
+"permissions using %s so the server can write to the file. I have had the most "
+"success setting this single file to %s but feel free to play around with "
+"permissions until everything is working. A good starting point is %s. When the "
+"server can save to the file, CSS will automatically be updated when you save your "
+"Theme Options."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:137
+#, php-format
+msgid ""
+"This example assumes you have an option with the ID of %1$s. Which means this "
+"option will automatically insert the value of %1$s into the %2$s when the Theme "
+"Options are saved."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:139
+msgid "Input"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:145
+msgid "Output"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:154
+#, php-format
+msgid ""
+"The Custom Post Type Select option type displays a list of IDs from any available "
+"WordPress post type or custom post type. It allows the user to check multiple post "
+"IDs for use in a custom function or loop. Requires at least one valid %1$s in the "
+"%1$s field."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:157
+#, php-format
+msgid ""
+"The Custom Post Type Select option type displays a list of IDs from any available "
+"WordPress post type or custom post type. It will return a single post ID for use in "
+"a custom function or loop. Requires at least one valid %1$s in the %1$s field."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:160
+msgid ""
+"The Date Picker option type is tied to a standard form input field which displays a "
+"calendar pop-up that allow the user to pick any date when focus is given to the "
+"input field. The returned value is a date formatted string."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:163
+msgid ""
+"The Date Time Picker option type is tied to a standard form input field which "
+"displays a calendar pop-up that allow the user to pick any date and time when focus "
+"is given to the input field. The returned value is a date and time formatted string."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:166
+#, php-format
+msgid ""
+"The Dimension option type is used to set width and height values. The text inputs "
+"except numerical values and the select lets you choose the unit of measurement to "
+"add to that value. Currently the default units are %s, %s, %s, and %s. However, you "
+"can change them with the %s filter."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:169
+msgid ""
+"The Gallery option type saves a comma separated list of image attachment IDs. You "
+"will need to create a front-end function to display the images in your theme."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:172
+#, php-format
+msgid ""
+"The Google Fonts option type will dynamically enqueue any number of Google Web "
+"Fonts into the document %1$s. As well, once the option has been saved each font "
+"family will automatically be inserted into the %2$s array for the Typography option "
+"type. You can further modify the font stack by using the %3$s filter, which is "
+"passed the %4$s, %5$s, and %6$s parameters. The %6$s parameter is being passed from "
+"%7$s, so it will be the ID of a Typography option type. This will allow you to add "
+"additional web safe fonts to individual font families on an as-need basis."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:175
+#, php-format
+msgid ""
+"The JavaScript option type is a textarea that uses the %s code editor to highlight "
+"your JavaScript and display errors as you type."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:178
+msgid "The Link Color option type is used to set all link color states."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:181
+msgid ""
+"The List Item option type replaced the Slider option type and allows for a great "
+"deal of customization. You can add settings to the List Item and those settings "
+"will be displayed to the user when they add a new List Item. Typical use is for "
+"creating sliding content or blocks of code for custom layouts."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:184
+#, php-format
+msgid ""
+"The Measurement option type is a mix of input and select fields. The text input "
+"excepts a value and the select lets you choose the unit of measurement to add to "
+"that value. Currently the default units are %s, %s, %s, and %s. However, you can "
+"change them with the %s filter."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:186
+#, php-format
+msgid "Example filter to add new units to the Measurement option type. Added to %s."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:199
+msgid ""
+"Example filter to completely change the units in the Measurement option type. Added "
+"to <code>functions.php</code>."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:215
+msgid ""
+"The Numeric Slider option type displays a jQuery UI slider. It will return a single "
+"numerical value for use in a custom function or loop."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:218
+#, php-format
+msgid ""
+"The On/Off option type displays a simple switch that can be used to turn things on "
+"or off. The saved return value is either %s or %s."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:221
+msgid ""
+"The Page Checkbox option type displays a list of page IDs. It allows the user to "
+"check multiple page IDs for use in a custom function or loop."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:224
+msgid ""
+"The Page Select option type displays a list of page IDs. It will return a single "
+"page ID for use in a custom function or loop."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:227
+msgid ""
+"The Post Checkbox option type displays a list of post IDs. It allows the user to "
+"check multiple post IDs for use in a custom function or loop."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:230
+msgid ""
+"The Post Select option type displays a list of post IDs. It will return a single "
+"post ID for use in a custom function or loop."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:233
+msgid ""
+"The Radio option type displays a group of choices. It allows the user to choose one "
+"and will return that value as a string for use in a custom function or loop."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:236
+#, php-format
+msgid ""
+"the Radio Images option type is primarily used for layouts. However, you can filter "
+"the image list using %s. As well, you can add your own custom images using the "
+"choices array."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:238
+msgid ""
+"This example executes the <code>ot_radio_images</code> filter on layout images "
+"attached to the <code>my_radio_images</code> field. Added to <code>functions.php</"
+"code>."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:263
+msgid ""
+"The Select option type is used to list anything you want that would be chosen from "
+"a select list."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:266
+#, php-format
+msgid ""
+"This option type makes it possible for users to select a WordPress registered "
+"sidebar to use on a specific area. By using the two provided filters, %s, and %s we "
+"can be selective about which sidebars are available on a specific content area."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:267
+#, php-format
+msgid ""
+"For example, if we create a WordPress theme that provides the ability to change the "
+"Blog Sidebar and we don't want to have the footer sidebars available on this area, "
+"we can unset those sidebars either manually or by using a regular expression if we "
+"have a common name like %s."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:270
+msgid ""
+"The Slider option type is technically deprecated. Use the List Item option type "
+"instead, as it's infinitely more customizable. Typical use is for creating sliding "
+"image content."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:273
+#, php-format
+msgid ""
+"The Social Links option type utilizes a drag & drop interface to create a list of "
+"social links. There are a few filters that make extending this option type easy. "
+"You can set the %s filter to %s and turn off loading default values. Use the %s "
+"filter to change the default values that are loaded. To filter the settings array "
+"use the %s filter."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:276
+#, php-format
+msgid ""
+"The Spacing option type is used to set spacing values such as padding or margin in "
+"the form of top, right, bottom, and left. The text inputs except numerical values "
+"and the select lets you choose the unit of measurement to add to that value. "
+"Currently the default units are %s, %s, %s, and %s. However, you can change them "
+"with the %s filter."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:279
+msgid "The Tab option type will break a section or metabox into tabbed content."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:282
+msgid ""
+"The Tag Checkbox option type displays a list of tag IDs. It allows the user to "
+"check multiple tag IDs and will return that value as an array for use in a custom "
+"function or loop."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:285
+msgid ""
+"The Tag Select option type displays a list of tag IDs. It allows the user to select "
+"only one tag ID and will return that value for use in a custom function or loop."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:288
+msgid ""
+"The Taxonomy Checkbox option type displays a list of taxonomy IDs. It allows the "
+"user to check multiple taxonomy IDs and will return that value as an array for use "
+"in a custom function or loop."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:291
+msgid ""
+"The Taxonomy Select option type displays a list of taxonomy IDs. It allows the user "
+"to select only one taxonomy ID and will return that value for use in a custom "
+"function or loop."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:294
+msgid ""
+"The Text option type is used to save string values. For example, any optional or "
+"required text that is of reasonably short character length."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:297
+#, php-format
+msgid ""
+"The Textarea option type is a large string value used for custom code or text in "
+"the theme and has a WYSIWYG editor that can be filtered to change the how it is "
+"displayed. For example, you can filter %s, %s, %s, and %s."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:299
+msgid ""
+"Example filters to alter the Textarea option type. Added to <code>functions.php</"
+"code>."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:301
+msgid ""
+"This example keeps WordPress from executing the <code>wpautop</code> filter on the "
+"line breaks. The default is <code>true</code> which means it wraps line breaks with "
+"an HTML <code>p</code> tag."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:314
+msgid ""
+"This example keeps WordPress from executing the <code>media_buttons</code> filter "
+"on the textarea WYSIWYG. The default is <code>true</code> which means show the "
+"buttons."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:327
+msgid ""
+"This example keeps WordPress from executing the <code>tinymce</code> filter on the "
+"textarea WYSIWYG. The default is <code>true</code> which means show the tinymce."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:340
+msgid ""
+"This example alters the <code>quicktags</code> filter on the textarea WYSIWYG. The "
+"default is <code>array( 'buttons' => 'strong,em,link,block,del,ins,img,ul,ol,li,"
+"code,spell,close' )</code> which means show those quicktags. It also means you can "
+"filter in your own custom quicktags."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:356
+msgid ""
+"The Textarea Simple option type is a large string value used for custom code or "
+"text in the theme. The Textarea Simple does not have a WYSIWYG editor."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:358
+#, php-format
+msgid ""
+"This example tells WordPress to execute the %s filter on the line breaks. The "
+"default is %s which means it does not wraps line breaks with an HTML %s tag. Added "
+"to %s."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:372
+msgid ""
+"The Textblock option type is used only on the Theme Option page. It will allow you "
+"to create & display HTML, but has no title above the text block. You can then use "
+"the Textblock to add a more detailed set of instruction on how the options are used "
+"in your theme. You would never use this in your themes template files as it does "
+"not save a value."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:375
+msgid ""
+"The Textblock Titled option type is used only on the Theme Option page. It will "
+"allow you to create & display HTML, and has a title above the text block. You can "
+"then use the Textblock Titled to add a more detailed set of instruction on how the "
+"options are used in your theme. You would never use this in your themes template "
+"files as it does not save a value."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:378
+#, php-format
+msgid ""
+"The Typography option type is for adding typography styles to your theme either "
+"dynamically via the CSS option type above or manually with %s. The Typography "
+"option type has filters that allow you to remove fields or change the defaults. For "
+"example, you can filter %s to remove unwanted fields from all Background options or "
+"an individual one. You can also filter %s. These filters allow you to fine tune the "
+"select lists for your specific needs."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:380
+msgid ""
+"This example would filter <code>ot_recognized_font_families</code> to build your "
+"own font stack. Added to <code>functions.php</code>."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:398
+#, php-format
+msgid ""
+"The Upload option type is used to upload any WordPress supported media. After "
+"uploading, users are required to press the \"%s\" button in order to populate the "
+"input with the URI of that media. There is one caveat of this feature. If you "
+"import the theme options and have uploaded media on one site the old URI will not "
+"reflect the URI of your new site. You will have to re-upload or %s any media to "
+"your new server and change the URIs if necessary."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:430
+msgid ""
+"This function returns a value from the \"option_tree\" array of saved values or the "
+"default value supplied. The returned value would be mixed. Meaning it could be a "
+"string, integer, boolean, or array."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:432
+#: option-tree/includes/ot-functions-docs-page.php:482
+msgid "Usage"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:436
+#: option-tree/includes/ot-functions-docs-page.php:486
+msgid "Parameters"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:440
+#: option-tree/includes/ot-functions-docs-page.php:444
+#: option-tree/includes/ot-functions-docs-page.php:490
+msgid "string"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:440
+#: option-tree/includes/ot-functions-docs-page.php:490
+msgid "required"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:440
+msgid "Enter the options unique identifier."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:440
+#: option-tree/includes/ot-functions-docs-page.php:490
+msgid "Default:"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:444
+#: option-tree/includes/ot-functions-docs-page.php:494
+#: option-tree/includes/ot-functions-docs-page.php:498
+#: option-tree/includes/ot-functions-docs-page.php:502
+#: option-tree/includes/ot-functions-docs-page.php:506
+msgid "optional"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:444
+msgid "Enter a default return value. This is just incase the request returns null."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:474
+msgid ""
+"This function has been deprecated. That means it has been replaced by a new "
+"function or is no longer supported, and may be removed from future versions. All "
+"code that uses this function should be converted to use its replacement."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:476
+msgid "Use"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:476
+msgid "instead"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:480
+msgid ""
+"This function returns, or echos if asked, a value from the \"option_tree\" array of "
+"saved values."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:490
+msgid "Enter a unique Option Key to get a returned value or array."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:494
+msgid "array"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:494
+msgid "Used to cut down on database queries in template files."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:498
+#: option-tree/includes/ot-functions-docs-page.php:502
+msgid "boolean"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:498
+msgid "Echo the output."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:502
+msgid "Used to indicate the $item_id is an array of values."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:506
+msgid "integer"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:506
+msgid ""
+"Numeric offset key for the $item_id array, -1 will return all values (an array "
+"starts at 0)."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:534
+msgid ""
+"If you're using the plugin version of OptionTree it is highly recommended to "
+"include a <code>function_exists</code> check in your code, as described in the "
+"examples below. If you've integrated OptionTree directly into your themes root "
+"directory, you will <strong>not</strong> need to wrap your code with "
+"<code>function_exists</code>, as you're guaranteed to have the "
+"<code>ot_get_option()</code> function available."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:536
+msgid "String Examples"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:538
+msgid "Returns the value of <code>test_input</code>."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:544
+msgid ""
+"Returns the value of <code>test_input</code>, but also has a default value if it "
+"returns empty."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:550
+msgid "Array Examples"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:552
+msgid ""
+"Assigns the value of <code>navigation_ids</code> to the variable <code>$ids</code>. "
+"It then echos an unordered list of links (navigation) using <code>wp_list_pages()</"
+"code>."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:572
+msgid ""
+"The next two examples demonstrate how to use the <strong>Measurement</strong> "
+"option type. The Measurement option type is an array with two key/value pairs. The "
+"first is the value of measurement and the second is the unit of measurement."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:598
+msgid "This example displays a very basic slider loop."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:643
+msgid "It's Super Simple"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:645
+msgid ""
+"Layouts make your theme awesome! With theme options data that you can save/import/"
+"export you can package themes with different color variations, or make it easy to "
+"do A/B testing on text and so much more. Basically, you save a snapshot of your "
+"data as a layout."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:647
+msgid ""
+"Once you have created all your different layouts, or theme variations, you can save "
+"them to a separate text file for repackaging with your theme. Alternatively, you "
+"could just make different variations for yourself and change your theme with the "
+"click of a button, all without deleting your previous options data."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:649
+msgid ""
+" Adding a layout is ridiculously easy, follow these steps and you'll be on your way "
+"to having a WordPress super theme."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:651
+msgid "For Developers"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:653
+#: option-tree/includes/ot-functions-docs-page.php:682
+msgid "Creating a Layout"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:655
+#: option-tree/includes/ot-functions-docs-page.php:662
+#: option-tree/includes/ot-functions-docs-page.php:668
+msgid "Go to the <code>OptionTre->Settings->Layouts</code> tab."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:656
+msgid ""
+"Enter a name for your layout in the text field and hit \"Save Layouts\", you've "
+"created your first layout."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:657
+#: option-tree/includes/ot-functions-docs-page.php:686
+msgid "Adding a new layout is as easy as repeating the steps above."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:660
+#: option-tree/includes/ot-functions-docs-page.php:689
+msgid "Activating a Layout"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:663
+msgid "Click on the activate layout button in the actions list."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:666
+#: option-tree/includes/ot-functions-docs-page.php:695
+msgid "Deleting a Layout"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:669
+msgid "Click on the delete layout button in the actions list."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:672
+#: option-tree/includes/ot-functions-docs-page.php:700
+msgid "Edit Layout Data"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:674
+#: option-tree/includes/ot-functions-docs-page.php:684
+#: option-tree/includes/ot-functions-docs-page.php:691
+msgid "Go to the <code>Appearance->Theme Options</code> page."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:675
+#: option-tree/includes/ot-functions-docs-page.php:703
+msgid ""
+"Modify and save your theme options and the layout will be updated automatically."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:676
+#: option-tree/includes/ot-functions-docs-page.php:704
+msgid ""
+"Saving theme options data will update the currently active layout, so before you "
+"start saving make sure you want to modify the current layout."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:677
+msgid ""
+"If you want to edit a new layout, first create it then save your theme options."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:680
+msgid "End-Users Mode"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:685
+msgid ""
+"Enter a name for your layout in the text field and hit \"New Layout\", you've "
+"created your first layout."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:692
+msgid "Choose a layout from the select list and click the \"Activate Layout\" button."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:697
+msgid "End-Users mode does not allow deleting layouts."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:702
+msgid "Go to the <code>Appearance->Theme Options</code> tab."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:733
+#: option-tree/includes/ot-functions-docs-page.php:815
+msgid "How-to-guide"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:735
+msgid ""
+"There are a few simple steps you need to take in order to use OptionTree's built in "
+"Meta Box API. In the code below I'll show you a basic demo of how to create your "
+"very own custom meta box using any number of the option types you have at your "
+"disposal. If you would like to see some demo code, there is a directory named "
+"<code>theme-mode</code> inside the <code>assets</code> directory that contains a "
+"file named <code>demo-meta-boxes.php</code> you can reference."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:737
+msgid ""
+"It's important to note that Meta Boxes do not support WYSIWYG editors at this time "
+"and if you set one of your options to Textarea it will automatically revert to a "
+"Textarea Simple until a valid solution is found. WordPress released this statement "
+"regarding the wp_editor() function:"
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:739
+msgid ""
+"Once instantiated, the WYSIWYG editor cannot be moved around in the DOM. What this "
+"means in practical terms, is that you cannot put it in meta-boxes that can be "
+"dragged and placed elsewhere on the page."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:741
+msgid "Create and include your custom meta boxes file."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:743
+msgid ""
+"Create a file and name it anything you want, maybe <code>meta-boxes.php</code>."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:744
+msgid ""
+"As well, you'll probably want to create a directory named <code>includes</code> to "
+"put your <code>meta-boxes.php</code> into which will help keep you file structure "
+"nice and tidy."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:745
+#: option-tree/includes/ot-functions-docs-page.php:845
+msgid "Add the following code to your <code>functions.php</code>."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:755
+msgid ""
+"Add a variation of the following code to your <code>meta-boxes.php</code>. You'll "
+"obviously need to fill it in with all your custom array values. It's important to "
+"note here that we use the <code>admin_init</code> filter because if you were to "
+"call the <code>ot_register_meta_box</code> function before OptionTree was loaded "
+"the sky would fall on your head."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:817
+msgid ""
+"There are a few simple steps you need to take in order to use OptionTree as a theme "
+"included module. In the code below I'll show you a basic demo of how to include the "
+"entire plugin as a module, which will allow you to have the most up-to-date version "
+"of OptionTree without ever needing to hack the core of the plugin. If you would "
+"like to see some demo code, there is a directory named <code>theme-mode</code> "
+"inside the <code>assets</code> directory that contains a file named <code>demo-"
+"theme-options.php</code> you can reference."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:819
+msgid "Step 1: Include the plugin & turn on theme mode."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:821
+#, php-format
+msgid "Download the latest version of %s and unarchive the %s directory."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:822
+#, php-format
+msgid ""
+"Put the %s directory in the root of your theme. For example, the server path would "
+"be %s."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:823
+#, php-format
+msgid "Add the following code to the beginning of your %s."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:837
+#, php-format
+msgid ""
+"For a list of all the OptionTree UI display filters refer to the %s file found in "
+"the %s directory of this plugin. This file is the starting point for developing "
+"themes with Theme Mode."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:839
+msgid ""
+"You now have OptionTree built into your theme and anytime an update is available "
+"replace the old version with the new one."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:841
+msgid "Step 2: Create Theme Options without using the UI Builder."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:843
+msgid ""
+"Create a file and name it anything you want, maybe <code>theme-options.php</code>, "
+"or use the built in file export to create it for you. Remember, you should always "
+"check the file for errors before including it in your theme."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:844
+msgid ""
+"As well, you'll probably want to create a directory named <code>includes</code> to "
+"put your <code>theme-options.php</code> into which will help keep you file "
+"structure nice and tidy."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:855
+msgid ""
+"Add a variation of the following code to your <code>theme-options.php</code>. "
+"You'll obviously need to fill it in with all your custom array values for "
+"contextual help (optional), sections (required), and settings (required)."
+msgstr ""
+
+#: option-tree/includes/ot-functions-docs-page.php:858
+msgid ""
+"The code below is a boilerplate to get your started. For a full list of the "
+"available option types click the \"Option Types\" tab above. Also a quick note, you "
+"don't need to put OptionTree in theme mode to manually create options but you will "
+"want to hide the docs and settings as each time you load the admin area the "
+"settings be written over with the code below if they've changed in any way. "
+"However, this ensures your settings do not get tampered with by the end-user."
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:46
+msgid "Sorry, this function does not exist"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:134
+msgid "background-repeat"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:152
+msgid "background-attachment"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:171
+msgid "background-position"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:224
+msgid "background-size"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:238
+msgid "background-image"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:241
+#: option-tree/includes/ot-functions-option-types.php:3202
+msgid "Add Media"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:316
+#: option-tree/includes/ot-functions-option-types.php:1045
+msgid "width"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:327
+#: option-tree/includes/ot-functions-option-types.php:1065
+#: option-tree/includes/ot-functions-option-types.php:1550
+#: option-tree/includes/ot-functions-option-types.php:2506
+msgid "unit"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:346
+msgid "style"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:439
+msgid "offset-x"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:448
+msgid "offset-y"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:457
+msgid "blur-radius"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:466
+msgid "spread-radius"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:538
+#: option-tree/includes/ot-functions-option-types.php:592
+msgid "No Categories Found"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:587
+#: option-tree/includes/ot-functions-option-types.php:870
+#: option-tree/includes/ot-functions-option-types.php:1819
+#: option-tree/includes/ot-functions-option-types.php:1930
+#: option-tree/includes/ot-functions-option-types.php:2646
+#: option-tree/includes/ot-functions-option-types.php:2761
+msgid "Choose One"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:818
+#: option-tree/includes/ot-functions-option-types.php:876
+#: option-tree/includes/ot-functions-option-types.php:1881
+#: option-tree/includes/ot-functions-option-types.php:1936
+msgid "No Posts Found"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:1054
+msgid "height"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:1232
+#: option-tree/includes/ot-functions-option-types.php:1275
+msgid "Remove Google Font"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:1234
+#: option-tree/includes/ot-functions-option-types.php:1277
+msgid "-- Choose One --"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:1298
+msgid "Add Google Font"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:1497
+#: option-tree/includes/ot-functions-option-types.php:2246
+#: option-tree/includes/ot-functions-option-types.php:2411
+msgid "Add New"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:1500
+#: option-tree/includes/ot-functions-option-types.php:2249
+#: option-tree/includes/ot-functions-option-types.php:2414
+msgid "You can re-order with drag & drop, the order will update after saving."
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:1670
+msgid "On"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:1692
+msgid "Off"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:1770
+#: option-tree/includes/ot-functions-option-types.php:1825
+msgid "No Pages Found"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:2169
+msgid "Choose Sidebar"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:2174
+msgid "No Sidebars"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:2292
+msgid "Google+"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:2297
+msgid "LinkedIn"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:2307
+msgid "Youtube"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:2312
+msgid "Dribbble"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:2317
+msgid "Github"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:2322
+msgid "Forrst"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:2327
+msgid "Digg"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:2332
+msgid "Delicious"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:2337
+msgid "Tumblr"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:2342
+msgid "Skype"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:2347
+msgid "SoundCloud"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:2352
+msgid "Vimeo"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:2357
+msgid "Flickr"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:2362
+msgid "VK.com"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:2468
+msgid "top"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:2477
+msgid "right"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:2486
+msgid "bottom"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:2495
+msgid "left"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:2597
+#: option-tree/includes/ot-functions-option-types.php:2651
+msgid "No Tags Found"
+msgstr ""
+
+#: option-tree/includes/ot-functions-option-types.php:2709
+#: option-tree/includes/ot-functions-option-types.php:2766
+msgid "No Taxonomies Found"
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:35
+msgid "Warning!"
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:36
+#, php-format
+msgid "Go to the %s page if you want to save data, this page is for adding settings."
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:37
+#, php-format
+msgid ""
+"If you're unsure or not completely positive that you should be editing these "
+"settings, you should read the %s first."
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:38
+msgid ""
+"Things could break or be improperly displayed to the end-user if you do one of the "
+"following:"
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:39
+msgid ""
+"Give two sections the same ID, give two settings the same ID, give two contextual "
+"help content areas the same ID, don't create any settings, or have a section at the "
+"end of the settings list."
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:40
+msgid ""
+"You can create as many settings as your project requires and use them how you see "
+"fit. When you add a setting here, it will be available on the Theme Options page "
+"for use in your theme. To separate your settings into sections, click the \"Add "
+"Section\" button, fill in the input fields, and a new navigation menu item will be "
+"created."
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:41
+msgid ""
+"All of the settings can be sorted and rearranged to your liking with Drag & Drop. "
+"Don't worry about the order in which you create your settings, you can always "
+"reorder them."
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:92
+msgid "Add Section"
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:99
+msgid "Contextual Help"
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:103
+msgid "Contextual Help Sidebar"
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:103
+msgid ""
+"If you decide to add contextual help to the Theme Option page, enter the optional "
+"\"Sidebar\" HTML here. This would be an extremely useful place to add links to your "
+"themes documentation or support forum. Only after you've added some content below "
+"will this display to the user."
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:132
+msgid "Add Contextual Help Content"
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:168
+msgid ""
+"This import method has been deprecated. That means it has been replaced by a new "
+"method and is no longer supported, and may be removed from future versions. All "
+"themes that use this import method should be converted to use its replacement below."
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:170
+#, php-format
+msgid ""
+"If you were given a Theme Options XML file with a premium or free theme, locate it "
+"on your hard drive and upload that file by clicking the upload button. A popup "
+"window will appear, upload the XML file and click \"%s\". The file URL should be in "
+"the upload input, if it is click \"Import XML\"."
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:173
+msgid "Import XML"
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:189
+msgid "Add XML"
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:226
+msgid ""
+"To import your Settings copy and paste what appears to be a random string of alpha "
+"numeric characters into this textarea and press the \"Import Settings\" button."
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:229
+msgid "Import Settings"
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:271
+msgid ""
+"Only after you've imported the Settings should you try and update your Theme "
+"Options."
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:273
+msgid ""
+"To import your Theme Options copy and paste what appears to be a random string of "
+"alpha numeric characters into this textarea and press the \"Import Theme Options\" "
+"button."
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:276
+msgid "Import Theme Options"
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:318
+msgid ""
+"Only after you've imported the Settings should you try and update your Layouts."
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:320
+msgid ""
+"To import your Layouts copy and paste what appears to be a random string of alpha "
+"numeric characters into this textarea and press the \"Import Layouts\" button. Keep "
+"in mind that when you import your layouts, the active layout's saved data will "
+"write over the current data set for your Theme Options."
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:323
+msgid "Import Layouts"
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:366
+#, php-format
+msgid ""
+"Export your Settings into a fully functional %s file. If you want to add your own "
+"custom %s text domain to the file, enter it into the text field before exporting. "
+"For more information on how to use this file read the documentation on %s. "
+"Remember, you should always check the file for errors before including it in your "
+"theme."
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:375
+msgid "Export Settings File"
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:405
+msgid ""
+"Export your Settings by highlighting this text and doing a copy/paste into a blank ."
+"txt file. Then save the file for importing into another install of WordPress later. "
+"Alternatively, you could just paste it into the <code>OptionTree->Settings->Import</"
+"code> <strong>Settings</strong> textarea on another web site."
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:441
+msgid ""
+"Export your Theme Options data by highlighting this text and doing a copy/paste "
+"into a blank .txt file. Then save the file for importing into another install of "
+"WordPress later. Alternatively, you could just paste it into the <code>OptionTree-"
+">Settings->Import</code> <strong>Theme Options</strong> textarea on another web "
+"site."
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:477
+msgid ""
+"Export your Layouts by highlighting this text and doing a copy/paste into a blank ."
+"txt file. Then save the file for importing into another install of WordPress later. "
+"Alternatively, you could just paste it into the <code>OptionTree->Settings->Import</"
+"code> <strong>Layouts</strong> textarea on another web site."
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:519
+msgid ""
+"To add a new layout enter a unique lower case alphanumeric string (dashes allowed) "
+"in the text field and click \"Save Layouts\"."
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:520
+msgid ""
+"As well, you can activate, remove, and drag & drop the order; all situations "
+"require you to click \"Save Layouts\" for the changes to be applied."
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:521
+msgid ""
+"When you create a new layout it will become active and any changes made to the "
+"Theme Options will be applied to it. If you switch back to a different layout "
+"immediately after creating a new layout that new layout will have a snapshot of the "
+"current Theme Options data attached to it."
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:522
+msgid ""
+"Visit <code>OptionTree->Documentation->Layouts Overview</code> to see a more in-"
+"depth description of what layouts are and how to use them."
+msgstr ""
+
+#: option-tree/includes/ot-functions-settings-page.php:559
+msgid "Save Layouts"
+msgstr ""
+
+#: option-tree/includes/ot-settings-api.php:364
+msgid "Reset Options"
+msgstr ""
+
+#: option-tree/ot-loader.php:22
+msgid ""
+"OptionTree is installed as a plugin and also embedded in your current theme. Please "
+"deactivate the plugin to load the theme dependent version of OptionTree, and remove "
+"this warning."
+msgstr ""
+
+#: search.php:21
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: search.php:26
+msgid "For best search results, mind the following suggestions:"
+msgstr ""
+
+#: search.php:28
+msgid "Always double check your spelling."
+msgstr ""
+
+#: search.php:29
+msgid "Try similar keywords, for example: tablet instead of laptop."
+msgstr ""
+
+#: search.php:30
+msgid "Try using more than one keyword."
+msgstr ""
+
+#: sidebar.php:25
+msgid "Archives"
+msgstr ""
+
+#: single-portfolio.php:18
+msgid "Launch Project"
+msgstr ""
+
+#: single-portfolio.php:41
+msgid "Categories"
+msgstr ""
+
+#: single-portfolio.php:51 woocommerce/tw_woocommerce.php:294
+msgid "Date"
+msgstr ""
+
+#: single.php:43
+msgid "Tags"
+msgstr ""
+
+#: single.php:63
+msgid "Newer"
+msgstr ""
+
+#: single.php:71
+msgid "Older"
+msgstr ""
+
+#: vc_templates/vc_accordion_tab.php:38
+msgid "Empty section. Edit page to add content here."
+msgstr ""
+
+#: vc_templates/vc_tab.php:16
+msgid "Empty tab. Edit page to add content here."
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:90
+msgid "Watch Video"
+msgstr ""
+
+#: woocommerce/tw_woocommerce.php:47
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: woocommerce/tw_woocommerce.php:165
+msgid "Shop Now"
+msgstr ""
+
+#: woocommerce/tw_woocommerce.php:291
+msgid "Default Order"
+msgstr ""
+
+#: woocommerce/tw_woocommerce.php:293
+msgid "Price"
+msgstr ""
+
+#: woocommerce/tw_woocommerce.php:295
+msgid "Popularity"
+msgstr ""
+
+#: woocommerce/tw_woocommerce.php:297
+msgid "Click to order products ascending"
+msgstr ""
+
+#: woocommerce/tw_woocommerce.php:298
+msgid "Click to order products descending"
+msgstr ""
+
+#: woocommerce/tw_woocommerce.php:300
+msgid "Items"
+msgstr ""
+
+#: woocommerce/tw_woocommerce.php:318
+msgid "Sort by"
+msgstr ""
+
+#: woocommerce/tw_woocommerce.php:331
+msgid "View Items"
+msgstr ""

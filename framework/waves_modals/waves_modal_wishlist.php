@@ -1,0 +1,1 @@
+<div class="col-md-12 waves-modal-inside"><?php echo do_shortcode('[yith_wcwl_wishlist]'); ?></div>

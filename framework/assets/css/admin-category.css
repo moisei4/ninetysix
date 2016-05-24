@@ -1,0 +1,20 @@
+
+.type-color{width: auto; position: relative;}
+.type-color>.color-view{position: absolute;display: none;z-index: 9999;left: 20px;}
+.type-color>.color-info{
+    background: url(../img/colorpicker/select.png) no-repeat;
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    top: 26px;
+    left: 100px;
+    margin-top: 5px;
+}
+td.type-color>.color-info{
+    top: 15px;
+    left: 115px;
+}
+
+.type-color>[data-type="color"]{background-color: #fff !important;color:#bebebe !important;}
+.type-radio>[data-type="radio"]{width: 16px;}
+.type-radio>.cat-label{width: 100px;display: inline-block;}

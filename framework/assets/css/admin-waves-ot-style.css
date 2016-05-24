@@ -1,0 +1,72 @@
+#option-tree-settings-api .description h3, #option-tree-settings-api .format-setting-label .label, #poststuff .format-setting-label .label{
+    margin: 0 !important;
+    font-size: 1.1em !important;
+}
+.format-setting-wrap, .option-tree-sortable .format-settings {
+    padding: 0 0 15px 0 !important;
+}
+select.option-tree-ui-select{
+    font-size: 12px !important;
+    min-width: 140px !important;
+}
+.option-tree-ui-media-wrap a.option-tree-ui-remove-media{
+    display: none !important;
+}
+@media only screen {
+    .on-off-switch label{
+        height: 20px !important;
+        line-height: 20px !important;
+    }
+    .on-off-switch{
+        font-size: 10px !important;
+        height: 20px !important;
+    }
+    .on-off-switch .slide-button{
+        height: 22px !important;
+    }
+    .on-off-switch{
+        width: 80px !important;
+    }
+}
+
+/* ThemeWaves Admin Page */
+.about-wrap .themewaves_welcome_bg img.tw-img-center {
+    margin: 0 auto;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    vertical-align: middle;
+}
+.about-wrap h4{
+    text-align: center;
+}
+.about-wrap ul li{
+    font-size: 14px;
+    line-height: 1.8;
+}
+.about-wrap .themewaves-img{
+    margin: 0 3% 0 0;
+    float: left;
+    border: 1px solid #ddd;
+}
+.tw_col-xs-4 {
+    width: 33.33333333%;
+    position: relative;
+    float: left;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+.themewaves_welcome_bg{
+    background: #fff;
+    margin: 50px 0 20px;
+    padding: 20px 20px 10px;
+}
+.tw_row:after, .tw_row:before {
+    content: " ";
+    display: table;
+}
+.tw_row:after {
+    clear: both;
+}

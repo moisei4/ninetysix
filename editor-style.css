@@ -1,0 +1,8 @@
+/*
+Theme Name: ThemeWaves
+Description: Used to style the TinyMCE editor.
+*/
+
+.mce-container, .mce-container *, .mce-widget, .mce-widget * {
+    max-height: 200px;
+}
