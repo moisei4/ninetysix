@@ -218,3 +218,33 @@ jQuery(document).ready(function ($) {
         jQuery(this).closest('.tw_cart_buttons').siblings('a').addClass('loading-cart');
     });
 });
+
+"use strict";
+
+jQuery(document).ready(function() { 
+	
+	(function ($) { 
+		$('.sf-mobile-menu .menu-item-has-children > a').on('click', function () { 
+			var activeButton = $(this), 
+				activeButtonLi = activeButton.closest('.menu-item-has-children'), 
+				menuWrap = activeButton.closest('.sf-mobile-menu');
+			
+			
+			if (activeButtonLi.hasClass('active')) {
+				activeButtonLi.removeClass('active');
+				
+				// if $('.sf-mobile-menu')
+			} else {
+				activeButtonLi.addClass('active');
+			}
+			
+			menuWrap.addClass('menu_opened');
+			
+			
+			return false;
+		} );
+		
+		
+		
+	} )(jQuery);
+} );

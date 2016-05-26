@@ -44,7 +44,10 @@
                                     echo balanceTags($waves_h_left_buttons);
                                 }else{
                                     waves_logo();
-                                } ?>
+                                } 
+								
+								waves_mobilemenu();
+								?>
                             </div>
                             <div class="col-md-8 waves-header-middle"><?php
                                 if($waves_options['header'] == 'header-normal'){ ?>
