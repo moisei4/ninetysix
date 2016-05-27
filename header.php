@@ -27,7 +27,6 @@
             <!-- Start Header -->
             <div class="waves-header"><?php
                 // Header left buttons
-                $waves_h_left_buttons  =waves_get_mdl_btn('menu');
                 $waves_h_left_buttons .=waves_get_mdl_btn('search');
                 // Header right buttons
                 $waves_h_right_buttons =waves_get_mdl_btn('wishlist');
@@ -61,7 +60,14 @@
                                     echo balanceTags($waves_h_left_buttons);
                                 }
                                 echo balanceTags($waves_h_right_buttons);
+								
+								do_action('icl_language_selector');
                                 ?>
+								<ul class="social_list_links">
+									<li><a href="http://facebook.com/Gentlestoreonline" target="_blank"><?php esc_html_e('Facebook', 'ninetysix');?></a></li>
+									<li><a href="https://www.instagram.com/gentlestore.online/" target="_blank"><?php esc_html_e('Instagram', 'ninetysix');?></a></li>
+									<li><a href="https://www.pinterest.com/katherinebyakov/" target="_blank"><?php esc_html_e('Pinterest', 'ninetysix');?></a></li>
+								</ul>
                             </div>
                         </div>
                     </div>

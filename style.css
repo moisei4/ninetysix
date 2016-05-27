@@ -3208,11 +3208,7 @@ body.header-dark .waves-modal-menu ul li a:hover{
     right: 0;
     z-index: -1;
 }
-.sf-mobile-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > a:before{
-    font-size: 10px;
-    top: 8px;
-    right: 4px;
-}
+
 .sf-mobile-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > .sub-menu > .menu-item-has-children > a:before{
     top: 5px;
     right: 0;
@@ -3554,17 +3550,12 @@ ul.instagram-pics li a:hover:after{
 /*--------------------------------------------------  Gentle styles  */
 
 /*----------  Navigation  */
-.waves-header-inner {
-	padding-left:5px;
-	padding-right:5px;
-}
-
 .waves-header-inner .tw-logo {
 	position:fixed;
-	top:20px;
+	top:11px;
 	left:50%;
 	width:200px;
-	margin-left:-100px;
+	margin-left:-15px;
 }
 
 .admin-bar .waves-header-inner .tw-logo {
@@ -3579,8 +3570,17 @@ body.header-left-side .waves-header {
 	width:170px;
 }
 
-.sf-mobile-menu ul, 
+body.header-left-side .waves-header-inner>div>.row>div.waves-header-right {
+	padding-bottom:100px;
+}
+
 .sf-mobile-menu {
+	margin:20px 0 0;
+	padding:0;
+	list-style:none;
+}
+
+.sf-mobile-menu ul {
 	list-style:none;
 	margin:0;
 	padding:0;
@@ -3594,17 +3594,24 @@ body.header-left-side .waves-header {
 	height:auto;
 }
 
+.sf-mobile-menu .menu-item-has-children.not_active > ul {
+	height:0;
+}
+
 .sf-mobile-menu ul {
 	height:0;
 	overflow:hidden;
+	padding-left:10px;
 }
 
+.sf-mobile-menu ul,
 .sf-mobile-menu li {
     -webkit-transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out;
     -moz-transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out;
     -o-transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out;
     -ms-transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out;
     transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+	display:block;
 }
 
 .sf-mobile-menu .menu-item-has-children > a:before {
@@ -3613,11 +3620,12 @@ body.header-left-side .waves-header {
 }
 
 .sf-mobile-menu a:hover,
-.sf-mobile-menu .menu-item-has-children.active > a {
+.sf-mobile-menu .current-menu-item > a,
+.sf-mobile-menu .current_page_item > a {
 	color:#f00;
 }
 
-.sf-mobile-menu.menu_opened .menu-item-has-children.active {
+/*.sf-mobile-menu.menu_opened .menu-item-has-children.active {
 	opacity:1;
 }
 
@@ -3627,7 +3635,7 @@ body.header-left-side .waves-header {
 
 .sf-mobile-menu.menu_opened > li {
 	opacity:0;
-}
+}*/
 
 .waves-header-inner>div>.row>div {
 	align-items:flex-start;
@@ -3641,6 +3649,100 @@ body.header-left-side .waves-header-inner>div>.row {
 	padding-bottom:25px;
 }
 
+
+/*----------  Languages  */
+#lang_sel_list {
+	height:20px;
+}
+
+#lang_sel_list a, 
+#lang_sel_list a:visited {
+	padding-left:0;
+	margin-right:7px;
+	background:none !important;
+}
+
+#lang_sel_list li {
+	line-height:20px;
+	height:20px;
+}
+
+#lang_sel_list li:before {
+	content:none !important;
+}
+
+#lang_sel_list a {
+	vertical-align:top;
+	position:relative;
+	text-indent:-100px;
+	display:inline-block;
+	width:25px;
+	height:20px !important;
+	line-height:20px;
+	z-index:2;
+	overflow:hidden;
+}
+
+#lang_sel_list a.lang_sel_sel {
+	color:#f00;
+}
+
+#lang_sel_list .icl-ru a:after,
+#lang_sel_list .icl-uk a:after,
+#lang_sel_list .icl-en a:after {
+	position:absolute;
+	left:100px;
+	top:0;
+	font-size:11px;
+	text-transform:uppercase;
+}
+
+#lang_sel_list .icl-en a:after {
+	content:'eng';
+}
+
+#lang_sel_list .icl-uk a:after {
+	content:'ua';
+}
+
+#lang_sel_list .icl-ru a:after {
+	content:'rus';
+}
+
+
+/*----------  Header Social  */
+.social_list_links {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+.social_list_links li {
+	display:block;
+	padding:0;
+	margin:0 7px 0 0;
+	line-height:20px;
+}
+
+.social_list_links li a {
+	text-transform:uppercase;
+	font-size:13px;
+	line-height:20px;
+}
+
+
+
+
+.shop_table .actions button, 
+.shop_table .actions input[type="submit"] {
+	background-color:#f5f5f5;
+	color:#111;
+}
+
+.shop_table .actions button:hover, 
+.shop_table .actions input[type="submit"]:hover {
+	border-color:#ccc;
+}
 
 /*----------  Custom css from wp admin  */
 .soc-icon-set {
