@@ -8,25 +8,25 @@ if(waves_woocommerce()) {
     add_filter( 'woocommerce_enqueue_styles', '__return_false' );
 
     /*
-     *    Set image dimensions on theme activation
+     *	Set image dimensions on theme activation
      */
     if ( ! function_exists( 'tw_woocommerce_set_image_dimensions' ) ) {
-        function tw_woocommerce_set_image_dimensions() {
+        function tw_woocommerce_set_image_dimensions() { 
                 if ( ! get_option( 'tw_shop_image_sizes_set' ) ) {
                         $single = array(
-                                'width'     => '540',    // px
-                                'height'    => '615',    // px
-                                'crop'      => 1         // crop
+                                'width' 	=> '540',	// px
+                                'height'	=> '615',	// px
+                                'crop'      => 1 		// crop
                         );
                         $thumbnail = array(
-                                'width'     => '70',    // px
-                                'height'    => '75',    // px
-                                'crop'      => 1         // crop
+                                'width' 	=> '70',	// px
+                                'height'	=> '75',	// px
+                                'crop'      => 1 		// crop
                         );
 
                         // Image sizes
-                        update_option( 'shop_single_image_size', $single );         // Single product image
-                        update_option( 'shop_thumbnail_image_size', $thumbnail );     // Image gallery thumbs
+                        update_option( 'shop_single_image_size', $single ); 		// Single product image
+                        update_option( 'shop_thumbnail_image_size', $thumbnail ); 	// Image gallery thumbs
 
                         // Set "images size set" option
                         add_option( 'tw_shop_image_sizes_set', '1' );
@@ -45,9 +45,9 @@ if(waves_woocommerce()) {
 
         echo '<a href="'.$checkout_url.'" class="tw-btn checkout-button button alt wc-forward" rel="nofollow">';
         esc_html_e( 'Proceed to Checkout', 'ninetysix' );
-        echo '</a>';
+        echo '</a>'; 
     }
-    remove_action( 'woocommerce_proceed_to_checkout', 'woocommerce_button_proceed_to_checkout', 20 );
+    remove_action( 'woocommerce_proceed_to_checkout', 'woocommerce_button_proceed_to_checkout', 20 ); 
     add_action('woocommerce_proceed_to_checkout', 'waves_custom_checkout_button_text');
     
     
@@ -254,7 +254,7 @@ if(waves_woocommerce()) {
     add_action('woocommerce_before_shop_loop_item_title', 'waves_woocommerce_thumb', 10);
 
     function waves_woocommerce_thumb()
-    {
+    { 
         global $product;
         echo '</a>';
         echo "<div class='product_thumb'>";
@@ -315,19 +315,19 @@ if(waves_woocommerce()) {
 
             if(waves_option('woo_sorting') !== 'true') return false;
 
-            $product_order['default']     = esc_html__("Default Order","ninetysix");
-            $product_order['title']     = esc_html__("Name","ninetysix");
-            $product_order['price']     = esc_html__("Price","ninetysix");
-            $product_order['date']         = esc_html__("Date","ninetysix");
+            $product_order['default'] 	= esc_html__("Default Order","ninetysix");
+            $product_order['title'] 	= esc_html__("Name","ninetysix");
+            $product_order['price'] 	= esc_html__("Price","ninetysix");
+            $product_order['date'] 		= esc_html__("Date","ninetysix");
             $product_order['popularity']    = esc_html__("Popularity","ninetysix");
 
-            $product_sort['asc']         = esc_html__("Click to order products ascending",  "ninetysix");
-            $product_sort['desc']         = esc_html__("Click to order products descending",  "ninetysix");
+            $product_sort['asc'] 		= esc_html__("Click to order products ascending",  "ninetysix");
+            $product_sort['desc'] 		= esc_html__("Click to order products descending",  "ninetysix");
 
-            $per_page_string         = esc_html__("Items","ninetysix");
+            $per_page_string 		= esc_html__("Items","ninetysix");
 
-            $per_page              = waves_option('woo_per_page');
-            if(!$per_page) $per_page     = get_option('posts_per_page');
+            $per_page 		 	= waves_option('woo_per_page');
+            if(!$per_page) $per_page 	= get_option('posts_per_page');
 
             parse_str($_SERVER['QUERY_STRING'], $params);
 
@@ -344,33 +344,33 @@ if(waves_woocommerce()) {
             $output .= "<div class='tw-product-ordering clearfix'>";
             $output .= "    <span class='tw-order-current'>".esc_html__("Sort by","ninetysix")." </span>";
             $output .= "    <ul class='product-order'>";
-            $output .= "        <li><span>".$product_order[$po_key]."<i class='fa fa-angle-down'></i></span>";
-            $output .= "        <ul>";
-            $output .= "        <li><a href='".waves_woo_build_query_string($params, 'product_order', 'default')."'>    <span class='avia-bullet'></span>".$product_order['default']."</a></li>";
-            $output .= "        <li><a href='".waves_woo_build_query_string($params, 'product_order', 'title')."'>    <span class='avia-bullet'></span>".$product_order['title']."</a></li>";
-            $output .= "        <li><a href='".waves_woo_build_query_string($params, 'product_order', 'price')."'>    <span class='avia-bullet'></span>".$product_order['price']."</a></li>";
-            $output .= "        <li><a href='".waves_woo_build_query_string($params, 'product_order', 'date')."'>    <span class='avia-bullet'></span>".$product_order['date']."</a></li>";
-            $output .= "        <li><a href='".waves_woo_build_query_string($params, 'product_order', 'popularity')."'>    <span class='avia-bullet'></span>".$product_order['popularity']."</a></li>";
-            $output .= "        </ul>";
-            $output .= "        </li>";
+            $output .= "    	<li><span>".$product_order[$po_key]."<i class='fa fa-angle-down'></i></span>";
+            $output .= "    	<ul>";
+            $output .= "    	<li><a href='".waves_woo_build_query_string($params, 'product_order', 'default')."'>	<span class='avia-bullet'></span>".$product_order['default']."</a></li>";
+            $output .= "    	<li><a href='".waves_woo_build_query_string($params, 'product_order', 'title')."'>	<span class='avia-bullet'></span>".$product_order['title']."</a></li>";
+            $output .= "    	<li><a href='".waves_woo_build_query_string($params, 'product_order', 'price')."'>	<span class='avia-bullet'></span>".$product_order['price']."</a></li>";
+            $output .= "    	<li><a href='".waves_woo_build_query_string($params, 'product_order', 'date')."'>	<span class='avia-bullet'></span>".$product_order['date']."</a></li>";
+            $output .= "    	<li><a href='".waves_woo_build_query_string($params, 'product_order', 'popularity')."'>	<span class='avia-bullet'></span>".$product_order['popularity']."</a></li>";
+            $output .= "    	</ul>";
+            $output .= "    	</li>";
             $output .= "    </ul>";
 
             $output .= "    <span class='tw-order-current'>".esc_html__("View Items","ninetysix")." </span>";
             $output .= "    <ul class='product-count'>";
-            $output .= "        <li><span>".$pc_key." ".$per_page_string."<i class='fa fa-sort'></i></span>";
-            $output .= "        <ul>";
-            $output .= "        <li><a href='".waves_woo_build_query_string($params, 'product_count', $per_page)."'>        <span class='avia-bullet'></span>".$per_page." ".$per_page_string."</a></li>";
-            $output .= "        <li><a href='".waves_woo_build_query_string($params, 'product_count', $per_page * 2)."'>    <span class='avia-bullet'></span>".($per_page * 2)." ".$per_page_string."</a></li>";
-            $output .= "        <li><a href='".waves_woo_build_query_string($params, 'product_count', $per_page * 3)."'>    <span class='avia-bullet'></span>".($per_page * 3)." ".$per_page_string."</a></li>";
-            $output .= "        </ul>";
-            $output .= "        </li>";
-            $output .= "    </ul>";
+            $output .= "    	<li><span>".$pc_key." ".$per_page_string."<i class='fa fa-sort'></i></span>";
+            $output .= "    	<ul>";
+            $output .= "    	<li><a href='".waves_woo_build_query_string($params, 'product_count', $per_page)."'>		<span class='avia-bullet'></span>".$per_page." ".$per_page_string."</a></li>";
+            $output .= "    	<li><a href='".waves_woo_build_query_string($params, 'product_count', $per_page * 2)."'>	<span class='avia-bullet'></span>".($per_page * 2)." ".$per_page_string."</a></li>";
+            $output .= "    	<li><a href='".waves_woo_build_query_string($params, 'product_count', $per_page * 3)."'>	<span class='avia-bullet'></span>".($per_page * 3)." ".$per_page_string."</a></li>";
+            $output .= "    	</ul>";
+            $output .= "    	</li>";
+            $output .= "	</ul>";
 
             $output .= "    <ul class='product-sort'>";
-            $output .= "        <li>";
-            if($ps_key == 'desc')     $output .= "<a title='".esc_attr($product_sort['asc'])."' class='sort-asc'  href='".waves_woo_build_query_string($params, 'product_sort', 'asc')."'><i class='fa fa-long-arrow-down'></i></a>";
-            if($ps_key == 'asc')     $output .= "<a title='".esc_attr($product_sort['desc'])."' class='sort-desc' href='".waves_woo_build_query_string($params, 'product_sort', 'desc')."'><i class='fa fa-long-arrow-up'></i></a>";
-            $output .= "        </li>";
+            $output .= "    	<li>";
+            if($ps_key == 'desc') 	$output .= "<a title='".esc_attr($product_sort['asc'])."' class='sort-asc'  href='".waves_woo_build_query_string($params, 'product_sort', 'asc')."'><i class='fa fa-long-arrow-down'></i></a>";
+            if($ps_key == 'asc') 	$output .= "<a title='".esc_attr($product_sort['desc'])."' class='sort-desc' href='".waves_woo_build_query_string($params, 'product_sort', 'desc')."'><i class='fa fa-long-arrow-up'></i></a>";
+            $output .= "    	</li>";
             $output .= "    </ul>";
 
             $output .= "</div>";
@@ -449,7 +449,7 @@ if(waves_woocommerce()) {
 
 
                     if(isset($orderby)) $args['orderby'] = $orderby;
-                    if(isset($order))     $args['order'] = $order;
+                    if(isset($order)) 	$args['order'] = $order;
                     if (!empty($meta_key))
                     {
                             $args['meta_key'] = $meta_key;

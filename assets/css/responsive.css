@@ -175,6 +175,16 @@
 }
 /* Landscape phones and down */
 @media (max-width: 480px) {
+    body.header-small.header-left-side .waves-header-inner{
+        height: 90px;
+    }
+    body.header-small.header-left-side .waves-header-inner{
+        position: fixed;
+        top: 0;
+        left: 0;
+        border-bottom: 1px solid #eee;
+        width: 100%;
+    }
     .modal-opened.header-left-side>.waves-modal-close-btn{
         visibility: hidden;
         opacity: 0;

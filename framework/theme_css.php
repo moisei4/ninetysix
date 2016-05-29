@@ -60,6 +60,12 @@ function waves_option_styles() {
     //H1
     $heading_h6 = waves_option('heading_h6');
     $h6 = isset($heading_h6['font-size']) ? $heading_h6['font-size'] : '12px';
+    
+    $logo_css = '';
+    $logo_width = waves_option('logo_width');
+    if(!empty($logo_width)){
+        $logo_css = '.tw-logo img{ max-width: '.$logo_width.'px; }';
+    }
     ?>
     <style type="text/css" id="waves-css">
         body{
@@ -89,6 +95,7 @@ function waves_option_styles() {
         h6{
             font-size: <?php echo esc_attr($h6); ?>;
         }
+        <?php echo esc_html($logo_css); ?>
         <?php echo waves_option('custom_css');?>
     </style><?php
 }

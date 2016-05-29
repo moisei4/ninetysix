@@ -169,17 +169,10 @@ function waves_theme_options() {
         'section' => 'logo_options',
     );
     $custom_settings['settings'][] = array(
-        'id' => 'logo2x',
-        'label' => esc_html__('Retina Logo Image', 'ninetysix'),
-        'desc' => esc_html__('2x logo size, for screens with high DPI.', 'ninetysix'),
-        'type' => 'upload',
-        'section' => 'logo_options',
-    );
-    $custom_settings['settings'][] = array(
-        'id' => 'logo2x_light',
-        'label' => esc_html__('Retina Light Logo Image', 'ninetysix'),
-        'desc' => esc_html__('2x logo size, for screens with high DPI.', 'ninetysix'),
-        'type' => 'upload',
+        'id' => 'logo_width',
+        'label' => esc_html__('Logo max width', 'ninetysix'),
+        'std' => '0',
+        'type' => 'text',
         'section' => 'logo_options',
     );
     $custom_settings['settings'][] = array(

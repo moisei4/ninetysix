@@ -115,56 +115,56 @@ jQuery(document).ready(function ($) {
         });
     });
     /* Scroll Up Menu */
-    if (!jQuery('body').hasClass('header-left-side')) {
         var $scrollTopOld = jQuery(window).scrollTop();
         var $scrollUpMax = 100;
         var $scrollUp = 0;
         var $scrollDownMax = 50;
         var $scrollDown = 0;
         jQuery(window).scroll(function () {
-            var $header = jQuery('.waves-header-inner');
-            var $headerClone = $header.siblings('.header-clone');
-            var $headerCloneOT = $headerClone.offset().top;
-            var $scrollTop = jQuery(window).scrollTop();
-            /* START - Header resize */
-            /* Important - Is HeaderScrollUp Check First */
-            if (jQuery('#wpadminbar').attr('id') === 'wpadminbar') {
-                $headerCloneOT -= jQuery('#wpadminbar').height();
-            }
-            var $diff = $scrollTopOld - $scrollTop;
-            if ($diff > 0) {/* Scroll Up */
-                $scrollUp += $diff;
-                $scrollDown = 0;
-            } else {/* Scroll Down */
-                $scrollUp = 0;
-                $scrollDown -= $diff;
-            }
-            $scrollTopOld = $scrollTop;
-            if ($scrollUpMax <= $scrollUp && $scrollTop > 0 && $headerCloneOT < $scrollTop && !jQuery('body').hasClass('header-small')) {
-                jQuery('body').addClass('header-small');
-                $header.css('margin-top', ('-' + $header.height() + 'px'));
-                $header.stop().animate({marginTop: 0}, 200, 'linear', function () {
-                    $header.css({'margin-top': ''});
-                });
-            } else if (($scrollDownMax <= $scrollDown || $scrollTop === 0 || $headerCloneOT > $scrollTop) && jQuery('body').hasClass('header-small') && !$header.hasClass('hidding')) {
-                if ($scrollTop === 0 || $headerCloneOT > $scrollTop) {
-                    jQuery('body').removeClass('header-small').removeClass('hidding');
-                } else {
-                    $header.stop().addClass('hidding').animate({marginTop: ('-' + $header.height() + 'px')}, 200, 'linear', function () {
-                        jQuery('body').removeClass('header-small');
-                        $header.css({'margin-top': ''}).removeClass('hidding');
-                    });
+            if (!jQuery('body').hasClass('header-left-side')||jQuery(window).width()<=480&&jQuery('body').hasClass('header-left-side')){
+                var $header = jQuery('.waves-header-inner');
+                var $headerClone = $header.siblings('.header-clone');
+                var $headerCloneOT = $headerClone.offset().top;
+                var $scrollTop = jQuery(window).scrollTop();
+                /* START - Header resize */
+                /* Important - Is HeaderScrollUp Check First */
+                if (jQuery('#wpadminbar').attr('id') === 'wpadminbar') {
+                    $headerCloneOT -= jQuery('#wpadminbar').height();
                 }
-            }
-            /* END   - Header resize */
-            if (jQuery(this).scrollTop() > $header.height()) {
-                jQuery('#scrollUp').fadeIn();
-            } else {
-                jQuery('#scrollUp').fadeOut();
+                var $diff = $scrollTopOld - $scrollTop;
+                if ($diff > 0) {/* Scroll Up */
+                    $scrollUp += $diff;
+                    $scrollDown = 0;
+                } else {/* Scroll Down */
+                    $scrollUp = 0;
+                    $scrollDown -= $diff;
+                }
+                $scrollTopOld = $scrollTop;
+                if ($scrollUpMax <= $scrollUp && $scrollTop > 0 && $headerCloneOT < $scrollTop && !jQuery('body').hasClass('header-small')) {
+                    jQuery('body').addClass('header-small');
+                    $header.css('margin-top', ('-' + $header.height() + 'px'));
+                    $header.stop().animate({marginTop: 0}, 200, 'linear', function () {
+                        $header.css({'margin-top': ''});
+                    });
+                } else if (($scrollDownMax <= $scrollDown || $scrollTop === 0 || $headerCloneOT > $scrollTop) && jQuery('body').hasClass('header-small') && !$header.hasClass('hidding')) {
+                    if ($scrollTop === 0 || $headerCloneOT > $scrollTop) {
+                        jQuery('body').removeClass('header-small').removeClass('hidding');
+                    } else {
+                        $header.stop().addClass('hidding').animate({marginTop: ('-' + $header.height() + 'px')}, 200, 'linear', function () {
+                            jQuery('body').removeClass('header-small');
+                            $header.css({'margin-top': ''}).removeClass('hidding');
+                        });
+                    }
+                }
+                /* END   - Header resize */
+                if (jQuery(this).scrollTop() > $header.height()) {
+                    jQuery('#scrollUp').fadeIn();
+                } else {
+                    jQuery('#scrollUp').fadeOut();
+                }
             }
         });
         jQuery(window).scroll();
-    }
     /* -------------------- */
     jQuery('#scrollUp').click(function () {
         jQuery("html, body").animate({scrollTop: 0}, 500);
@@ -218,44 +218,3 @@ jQuery(document).ready(function ($) {
         jQuery(this).closest('.tw_cart_buttons').siblings('a').addClass('loading-cart');
     });
 });
-
-"use strict";
-
-jQuery(document).ready(function() { 
-	
-	(function ($) { 
-		$(window).load(function () { 
-			$('.sf-mobile-menu .menu-item-has-children.current-menu-ancestor').addClass('active');
-		});
-		
-		
-		$('.sf-mobile-menu .menu-item-has-children > a').on('click', function () { 
-			var activeButton = $(this), 
-				activeButtonLi = activeButton.closest('.menu-item-has-children'), 
-				menuWrap = activeButton.closest('.sf-mobile-menu');
-			
-			
-			if (activeButtonLi.hasClass('active')) {
-				
-				activeButtonLi.removeClass('active').addClass('not_active');
-				
-				if ($('.sf-mobile-menu > .menu-item-has-children').hasClass('active')) {
-					menuWrap.addClass('menu_opened');
-				} else {
-					menuWrap.removeClass('menu_opened');
-				}
-			} else {
-				activeButtonLi.addClass('active').removeClass('not_active');
-				
-				if ($('.sf-mobile-menu > .menu-item-has-children').hasClass('active')) {
-					menuWrap.addClass('menu_opened');
-				} else {
-					menuWrap.removeClass('menu_opened');
-				}
-			}
-			
-			
-			return false;
-		} );
-	} )(jQuery);
-} );

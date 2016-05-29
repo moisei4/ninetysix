@@ -4,7 +4,7 @@ function waves_option($index, $default = false) {
 }
 function waves_favicon() {
     if(!function_exists('has_site_icon')||!has_site_icon()){
-        $favicon = get_theme_mod('favicon');
+        $favicon = waves_option('fav_icon');
         if(!empty($favicon)){
             echo '<link rel="shortcut icon" href="' . esc_url($favicon).'"/>';
         }else{

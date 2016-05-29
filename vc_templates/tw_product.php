@@ -193,13 +193,13 @@ if (have_posts()) {
             $output .= '<div class="tw-product-images">';
             
             if ( has_post_thumbnail() ) {
-                $image = get_the_post_thumbnail( $post->ID, 'waves_portfolio_s2' );
+                $image = get_the_post_thumbnail( $post->ID, 'full' );
                 $output .= '<div class="waves-slick-slide">'.$image.'</div>';
             }
             $attachment_ids = array_filter( array_filter( (array) explode( ',', waves_metabox('_product_image_gallery') ), 'wp_attachment_is_image' ));
             if ( $attachment_ids ) {
                 foreach ( $attachment_ids as $attachment_id ) {
-                    $image = wp_get_attachment_image( $attachment_id, 'waves_portfolio_s2' );
+                    $image = wp_get_attachment_image( $attachment_id, 'full' );
                     $output .= '<div class="waves-slick-slide">'.$image.'</div>';
                 }
             }
