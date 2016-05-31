@@ -260,11 +260,7 @@ if(waves_woocommerce()) {
         echo "<div class='product_thumb'>";
                 echo '<a href="'.esc_url(get_permalink($product->id)).'">';
                 
-				// if (waves_option('woocommerce_layout') === '3-columns') {
-					echo waves_image('full');
-				// } else {
-					// echo waves_image('waves_archive_product');
-				// }
+				echo waves_image('waves_archive_product');
 				
                 echo '<div class="thumb-overlay"></div>';
                 echo '</a>';
