@@ -28,7 +28,7 @@ function waves_modal(){
     <i class="waves-modal-close-btn ion-android-close"></i>
     <div class="waves-modal-overlay"></div><?php
 }
-function waves_get_mdl_btn($btnName){
+function waves_get_mdl_btn($btnName,$cart_count=''){
     $class='';
     switch($btnName){
         case'menu'      : $class='ion-navicon';break;
@@ -48,11 +48,17 @@ function waves_get_mdl_btn($btnName){
         break;
         case'basket'    :
             if(waves_option('cart_on_header')==='on'&&waves_woocommerce()){
+				global $woocommerce;
+				
+				if ($woocommerce->cart->get_cart_contents_count() > 0 && $woocommerce->cart->get_cart_contents_count() != '') {
+					$cart_count = $woocommerce->cart->get_cart_contents_count();
+				}
+				
                 $class='ion-bag';
             }else{
                 return '';
             }
         break;
     }
-    return '<a href="#" class="waves-mbtn" data-mbtn="'.esc_attr($btnName).'"><i class="'.esc_attr($class).'"></i></a>';
+    return '<a href="#" class="waves-mbtn" data-mbtn="'.esc_attr($btnName).'"><i class="'.esc_attr($class).'"></i>'. ($cart_count != '' ? '<small class="gentle_cart_count">' . $cart_count . '</small>' : '') .'</a>';
 }
